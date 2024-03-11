@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "/Cleo Grumpy.ico.jpg";
 
 export default function Home() {
   return (
