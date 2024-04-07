@@ -1,5 +1,5 @@
 import Image from 'next/image';
-//need to sync git
+//need to sync git, see if it's fixed now
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
