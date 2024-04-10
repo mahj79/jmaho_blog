@@ -1,0 +1,1 @@
+//placholder for blog on random thoughts
