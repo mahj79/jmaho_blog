@@ -1,6 +1,6 @@
 ---
-title: 'Jack's First Blog'
-date: '2024-05-28'
+title: 'First Blog Post'
+date: '2024-05-17'
 ---
 
 This is a test run for typing out my first blog post.
