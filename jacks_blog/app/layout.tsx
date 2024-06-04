@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="dark:bg-slate-800">
+      <body className="dark:bg-#065f46-800">
         <Navbar />
         <MyProfilePic />
         {children}
