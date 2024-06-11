@@ -11,6 +11,7 @@ export function generateStaticParams() {
     }))
 }
 
+
 export function generateMetadata({params}: {params: { postId: string}}) {
     
     const posts = getSortedPostsData();
@@ -47,7 +48,7 @@ export default async function Post({params}: {params: { postId: string}}) {
             <h1 className="text-3xl text-gray-300 mt-4 mb-0">{title}</h1>
             <p className="text-gray-200 mt-0">{pubDate}</p>
             <article>
-                <section dangerouslySetInnerHTML={{__html: contentHtml}}/>
+                <section className="text-gray-200 mt-0"dangerouslySetInnerHTML={{__html: contentHtml}}/>
                 <p>
                     <Link href="/" className="text-gray-300">Back to Home</Link>
                 </p>
