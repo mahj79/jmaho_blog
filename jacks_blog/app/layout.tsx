@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jack's Blog",
@@ -19,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/app/favicon.ico" sizes="any"/>
+          <link rel="shortcut icon" href="/images/icon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-16x16.png"/>
       </head>
       <body className="bg-emerald-700 text-slate-100">
         <Navbar />
