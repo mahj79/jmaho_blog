@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/app/favicon.ico" sizes="any"/>
+      </head>
       <body className="bg-emerald-700 text-slate-100">
         <Navbar />
         <MyProfilePic />
