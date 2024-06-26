@@ -4,3 +4,8 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs@5.3.3"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
