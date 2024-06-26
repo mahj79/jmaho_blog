@@ -5,7 +5,6 @@
   publishOrigin = "config"
 
 [[plugins]]
-  origin = "config"
   package = "@netlify/plugin-nextjs"
 
 [[redirects]]
