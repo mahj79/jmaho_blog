@@ -11,6 +11,12 @@ If you recall from part one, we compared layers to filters in a neural network. 
 
 You may think well why don’t we make it yes or no if it has a flat side and pass it along? Well that’s an option if we were only looking for corner pieces but in this case there will be other pieces of the puzzle that we’ll need to identify such as a middle piece with no flat sides. This is accounted for by organizing our neurons to communicate based on how we assign our layers to look for things. Take a look at the graphics below. In the first graphic we have that first layer that has received a corner piece. The first layer is looking for flat sides and we’ve put weight on flat sides to basically tell this layer, hey we have some flat sides, pass this info along to the next layer which fires the highlighted neurons in red. In the second graphic, we pass in a middle piece with no flat sides. This gets passed along to the next layer firing different neurons in blue. 
 
+![Neural Network Drawing Red Weights](/images/Neural_Network_Drawing_Red_Weights.jpg "Neural Network Drawing Red Weights")
+Figure (Neurons Firing in Red)
+
+![Neural Network Drawing Blue Weights](/images/Neural_Network_Drawing_Blue_Weights.jpg "Neural Network Drawing Blue Weights")
+Figure (Neurons Firing in Blue)
+
 If it still feels a bit confusing on what a weight is, the other analogy to think of is a two sided balance scale. If you put more weight on one side, the scale will tip that way. If you put more weight on the other side of the scale then vice versa. We apply this logic as a way to help train our program on how it should think. 
 
 Ok so we’ve covered weights quite a bit, but Maho you mentioned something about biases in the beginning and all this weight talk sounds an awful lot like biases? Well you’re sort of right. Weights and biases are similar in that we are essentially telling the program what it should be caring about. So what is a bias? A bias is how we leverage the neurons in a layer to say what or what not to look for. The bias helps us get closer to that 1 or 0 that tells our layers this is what we should be caring about. From a mathematical perspective it acts sort of like a negative effect. 
