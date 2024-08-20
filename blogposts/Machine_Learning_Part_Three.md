@@ -1,6 +1,6 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 3)'
-date: '2024-08-13'
+date: '2024-08-19'
 ---
 
 Alright folks, if you’ve made it to the third and final part of this series, let me start by saying a big thank you! While this series has mostly been for fun and a way to explore new concepts, I truly appreciate you taking the time to go along this journey with me. That being said, this will be the last part of our series on machine learning and neural networks.
@@ -16,18 +16,17 @@ So, we have this cost function, and we know that adjusting weights and biases is
 
 Let’s break down the key concepts:
 
-- **Objective:** The main goal of gradient descent is to find the optimal values for the model’s parameters (weights and biases) that minimize the cost function, thereby improving accuracy.
-- **Gradient:** The gradient is like a sum of partial derivatives (similar to our V(x)) of the cost function concerning the model parameters. If you’re unfamiliar with derivatives, think of it as the rate of change, or how we calculate the optimal point to steer our program with math. The gradient points in the direction of the steepest increase in the cost function. Since we want to minimize the cost, we move in the opposite direction (down the gradient), reducing the cost.
-- **Learning Rate:** This parameter determines the size of the steps taken toward minimizing the cost. A small learning rate means the function takes smaller, more precise steps, leading to slow but steady convergence. A large learning rate can speed up convergence but risks overshooting the minimum or missing it entirely.
+- *Objective:* The main goal of gradient descent is to find the optimal values for the model’s parameters (weights and biases) that minimize the cost function, thereby improving accuracy.
+- *Gradient:* The gradient is like a sum of partial derivatives (similar to our V(x)) of the cost function concerning the model parameters. If you’re unfamiliar with derivatives, think of it as the rate of change, or how we calculate the optimal point to steer our program with math. The gradient points in the direction of the steepest increase in the cost function. Since we want to minimize the cost, we move in the opposite direction (down the gradient), reducing the cost.
+- *Learning Rate:* This parameter determines the size of the steps taken toward minimizing the cost. A small learning rate means the function takes smaller, more precise steps, leading to slow but steady convergence. A large learning rate can speed up convergence but risks overshooting the minimum or missing it entirely.
 
 
-
-- **Steps of Gradient Descent:**
-    1. **Initialize Parameters:** Start with initial values for the model’s parameters, often chosen randomly. In our puzzle case, it might be something like, “Look for green or blue,” but after identifying a lot of red, the program might adjust to say, “No green or blue here, so that’s not what we want.”
-    2. **Compute Predictions:** Use the current parameters to make predictions. This involves looking at how we’ve defined our weights and biases to make educated guesses about the program’s performance.
-    3. **Calculate Cost:** Compute the cost function to compare how far off the predictions are from the actual values. This is essentially measuring how accurately the puzzle pieces were identified. 
-    4. **Compute Gradients:** Calculate the gradients of the cost function with respect to each parameter. This step evaluates how much our weights and biases contributed to the correct or incorrect outputs.
-    5. **Update Parameters:** Adjust the parameters in the opposite direction of the gradient by a step size determined by the learning rate. Essentially, this means refining our program based on what we’ve learned to produce more accurate results next time.
+Steps of Gradient Descent:
+- *Initialize Parameters:* Start with initial values for the model’s parameters, often chosen randomly. In our puzzle case, it might be something like, “Look for green or blue,” but after identifying a lot of red, the program might adjust to say, “No green or blue here, so that’s not what we want.”
+- *Compute Predictions:* Use the current parameters to make predictions. This involves looking at how we’ve defined our weights and biases to make educated guesses about the program’s performance.
+-  *Calculate Cost:* Compute the cost function to compare how far off the predictions are from the actual values. This is essentially measuring how accurately the puzzle pieces were identified. 
+- *Compute Gradients:* Calculate the gradients of the cost function with respect to each parameter. This step evaluates how much our weights and biases contributed to the correct or incorrect outputs.
+- *Update Parameters:* Adjust the parameters in the opposite direction of the gradient by a step size determined by the learning rate. Essentially, this means refining our program based on what we’ve learned to produce more accurate results next time.
 
 To visualize this, imagine standing on top of a mountain. You know there’s a lovely picnic waiting for you at the bottom, but you’re not sure how to get there. There are many paths down, and you need to consider factors like time, number of steps, and safety. After some thought, you choose the quickest path, but it’s too steep, and you twist your ankle. Eventually, you make it down and enjoy your picnic, but not without a few bumps and bruises. Over time, if you keep finding yourself at the top of that mountain, you’ll learn the most efficient way down, avoiding the pitfalls. That’s essentially how gradient descent works: through trial and error, refining the path to reach the optimal solution.
 
