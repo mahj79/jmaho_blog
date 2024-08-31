@@ -18,7 +18,7 @@ So, where do we start? This is a red sauce, and while I do have a recipe for a w
 - Spices and bases – Olive oil, unsalted butter, Italian seasoning (oregano works too), crushed red pepper, salt, and pepper.
 - Choice of vegetable - dealers choice here but I like roasted broccoli. If you’re going this route, you’ll also need salt, pepper, Spike (if you don’t own Spike, buy it—you’ll thank me later), garlic powder, and Lawry’s seasoning salt.
 - Parmesan cheese - cheese
-- Wine (Optional) - – A dry red works well, and it’s also a great catalyst for some music and maybe a bit of dancing in the kitchen.
+- Wine (Optional) - A dry red works well, and it’s also a great catalyst for some music and maybe a bit of dancing in the kitchen.
 
 Hopefully, you already have most of the spices and essentials like olive oil and butter, so it shouldn’t be a big trip to the grocery store. For reference, I live in Chicago, so maybe my groceries are a little more expensive compared to other areas, but since I usually look for deals and use coupons, this meal really shouldn’t cost more than $20.
 
