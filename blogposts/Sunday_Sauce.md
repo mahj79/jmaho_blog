@@ -22,7 +22,7 @@ So, where do we start? This is a red sauce, and while I do have a recipe for a w
 
 Hopefully, you already have most of the spices and essentials like olive oil and butter, so it shouldn’t be a big trip to the grocery store. For reference, I live in Chicago, so maybe my groceries are a little more expensive compared to other areas, but since I usually look for deals and use coupons, this meal really shouldn’t cost more than $20.
 
-Once you’ve got all your ingredients and are ready to start cooking, begin by chopping up your onion and mincing your garlic. A tip to make mincing easier: use a knife with a larger blade to crush the garlic against the cutting board. Then, heat three tablespoons of butter mixed with olive oil in a large pot until the butter stops foaming. Add the onions to the pot and let them cook for a few minutes before adding the garlic. Mix them together, and once the aroma starts filling your kitchen, add the can of whole tomatoes—juices and all. Use a potato masher to crush the tomatoes in the pot until they’re all separated.
+Once you’ve got all your ingredients and are ready to start cooking, begin by chopping up your onion and mincing your garlic. A tip to make mincing easier: flip your knife on it's side and use the knife's blade to crush the garlic against the cutting board. Then, heat three tablespoons of butter mixed with olive oil in a large pot until the butter stops foaming. Add the onions to the pot and let them cook for a few minutes before adding the garlic. Mix them together, and once the aroma starts filling your kitchen, add the can of whole tomatoes—juices and all. Use a potato masher to crush the tomatoes in the pot until they’re all separated.
 
 Stir everything in the pot and season with Italian seasoning, crushed red pepper, salt, and pepper. If you’re unsure about the salt, remember that more is usually better. Let the sauce simmer on low to medium heat for about 30 to 35 minutes, stirring occasionally. While the sauce is simmering, you can work on the rest of the meal.
 ![Sauce](/images/Sunday_Sauce.jpg "Sauce") Figure (Sauce)
@@ -34,7 +34,7 @@ Once your water is boiling, add your pasta and cook until it’s al dente. As th
 By this point, everything should be cooking and nearly ready. Your pasta should be close to done, the broccoli should be browning, the sausage should be cooked, and the sauce should be nice and saucy. Taste the pasta and add salt if needed—you’ll know if it does—and get ready to put everything together.
 
 Drain your pasta, pull the broccoli out of the oven, and mix the sausage directly into the sauce. You can also mix the pasta into the sauce, but I prefer to keep them separate and pour the sauce on top when serving. Plate everything up, sprinkle with Parmesan cheese, and enjoy your meal!
-![Dinner](/images/Gabagool.jpg "Dinner") Figure (Bon Appétit)
+![Bon Appétit](/images/Gabagool.jpg "Bon Appétit") Figure (Bon Appétit)
 
 There are few things better than a delicious meal shared with friends or family. Next time you have some time to prepare dinner, invite a friend or two over, maybe some family, and try this dish. If you give Sunday Sauce a try, let me know how it turns out! Cheers!
  
