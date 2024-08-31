@@ -37,4 +37,3 @@ Drain your pasta, pull the broccoli out of the oven, and mix the sausage directl
 ![Bon Appétit](/images/Gabagool.jpg "Bon Appétit") Figure (Bon Appétit)
 
 There are few things better than a delicious meal shared with friends or family. Next time you have some time to prepare dinner, invite a friend or two over, maybe some family, and try this dish. If you give Sunday Sauce a try, let me know how it turns out! Cheers!
- 
