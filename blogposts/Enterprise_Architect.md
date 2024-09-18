@@ -1,5 +1,5 @@
 ---
-title: 'Enterprise Architect'
+title: 'My new job as an Enterprise Architect!'
 date: '2024-09-17'
 ---
 
