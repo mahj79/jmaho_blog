@@ -4,7 +4,10 @@ import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 
 export const metadata: Metadata = {
-  title: "Jack's Blog",
+  title: {
+    default: "Jack's Blog",
+    template: "%s | Maho's Corner"
+  },
   description: "Created by Jack to blog about all things going through his head",
 };
 
