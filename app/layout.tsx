@@ -8,7 +8,13 @@ export const metadata: Metadata = {
     default: "Jack's Blog",
     template: "%s | Maho's Corner"
   },
-  description: "Created by Jack to blog about all things going through his head",
+  description: {
+    default: "Created by Jack to blog about all things going through his head",
+    template: "%s | Maho's Corner"
+  },
+  twitter: {
+    card: 'summary_large_image',
+  }
 };
 
 export default function RootLayout({
