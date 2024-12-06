@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Maho's Corner"
   },
   description: {
-    default: "Created by Jack to blog about all things going through his head",
+    default: "Created by Jack Mahoney to blog about all things going through his head",
     template: "%s | Maho's Corner"
   },
   twitter: {
