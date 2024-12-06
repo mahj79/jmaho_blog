@@ -14,6 +14,16 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    title: {
+      default: "Jack's Blog",
+      template: "%s | Maho's Corner"
+    },
+    description: {
+      default: "Created by Jack to blog about all things going through his head",
+      template: "%s | Maho's Corner"
+    },
+    creator: '@mahoneyj50',
+    
   }
 };
 
