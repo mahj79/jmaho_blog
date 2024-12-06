@@ -8,7 +8,33 @@ export const metadata: Metadata = {
     default: "Jack's Blog",
     template: "%s | Maho's Corner"
   },
-  description: "Created by Jack to blog about all things going through his head",
+  description: "Created by Jack Mahoney to blog about all things going through his head",
+  openGraph: {
+    title: {
+      default: "Jack's Blog",
+      template: "%s | Maho's Corner"
+    },
+    description: 'Created by Jack Mahoney to blog about all things going through his head',
+    url: 'https://mahoscorner.com',
+    siteName: "Maho's Corner",
+    images: [
+      {
+        url: 'https://mahoscorner.com/_next/image?url=%2Fimages%2Fvail_headshot.jpg&w=256&q=75', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: {
+      default: "Jack's Blog",
+      template: "%s | Maho's Corner"
+    },
+    description: "Created by Jack Mahoney to blog about all things going through his head",
+    creator: '@mahoneyj50',
+    images: ['https://mahoscorner.com/_next/image?url=%2Fimages%2Fvail_headshot.jpg&w=256&q=75'],
+  }
 };
 
 export default function RootLayout({
