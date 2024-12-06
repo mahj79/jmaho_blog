@@ -9,7 +9,7 @@ export default function MyProfilePic() {
                 src={"/images/vail_headshot.jpg"}
                 width={200}
                 height={200}
-                alt="Profile Pic of Cleo"
+                alt="Profile Pic of Jack"
                 priority={true}
             />
         </section>
