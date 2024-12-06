@@ -8,22 +8,16 @@ export const metadata: Metadata = {
     default: "Jack's Blog",
     template: "%s | Maho's Corner"
   },
-  description: {
-    default: "Created by Jack Mahoney to blog about all things going through his head",
-    template: "%s | Maho's Corner"
-  },
+  description: "Created by Jack Mahoney to blog about all things going through his head",
   twitter: {
     card: 'summary_large_image',
     title: {
       default: "Jack's Blog",
       template: "%s | Maho's Corner"
     },
-    description: {
-      default: "Created by Jack to blog about all things going through his head",
-      template: "%s | Maho's Corner"
-    },
+    description: "Created by Jack Mahoney to blog about all things going through his head",
     creator: '@mahoneyj50',
-    
+
   }
 };
 
