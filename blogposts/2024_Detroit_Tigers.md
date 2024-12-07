@@ -1,6 +1,8 @@
 ---
 title: 'The 2024 Detroit Tigers'
 date: '2024-11-11'
+description: Jack's summary of the 2024 Detroit Tigers from a fan's perspective.
+image: /images/Tiger_Sox.JPG
 ---
 
 This post is dedicated to the Detroit Tigers 2024 season. Going into this year I wasn’t fully sure what to expect of the Tigers this year. The team had some promising young players that showed signs of serious potential at the end of the 2023 season, however the reality was they were still a team that finished below .500 and missed the playoffs. There weren’t any big moves in the offseason, no big free agents, no big trades, only a handful of signings that were made to provide some depth in areas Detroit was lacking in 2023. The Detroit Tigers 2024 season was set up to be defined by how much growth the Tigers young core would have and if they could finally find a way to put together some wins. 

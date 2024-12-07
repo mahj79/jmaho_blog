@@ -1,6 +1,8 @@
 ---
 title: 'My new job as an Enterprise Architect!'
 date: '2024-09-17'
+description: The first post in Jack's machine learning series.
+image: /images/App_Architecture_Diagram.jpg
 ---
 
 I’m excited to share some big news! Back in July, I accepted a new position at my current company as an **Enterprise Architect**. If you’re not familiar with the title, that’s totally understandable as it can be a bit tricky to explain. Even when I tell close friends and family about the job, I sometimes struggle to describe everything it entails.

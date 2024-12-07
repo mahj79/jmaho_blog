@@ -1,6 +1,8 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 2)'
 date: '2024-07-30'
+description: The second post in Jack's machine learning series.
+image: /images/Neural_Network_Drawing_Red_Weights.jpg
 ---
 
 We wrapped up the first part of this series focusing on how a neural network connects and interacts with each of its respective layers. To take a step back though, let’s recap and talk about the big picture: how a neural network is relevant to machine learning and what it ultimately accomplishes. We talked about how machine learning is basically a program that continuously trains itself on data to produce more accurate outputs based on its intended purpose. In the example of the puzzle we gave in part 1, the expectation would be that by the time the program has run a 1000 times it should be able to identify each piece accurately and quickly. This is done by leveraging the neural network inside the program to make accurate decisions on which piece is which. To get to those accurate decisions though, we have to train our program. This is done by adjusting the weights and biases associated with the neurons from layer to layer, which brings us to the topic of part 2. 

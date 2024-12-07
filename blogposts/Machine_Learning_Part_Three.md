@@ -1,6 +1,8 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 3)'
 date: '2024-08-19'
+description: The third post in Jack's machine learning series.
+image: /images/Neural_Network_Drawing_Blue_Weights.jpg
 ---
 
 Alright folks, if you’ve made it to the third and final part of this series, let me start by saying a huge thank you! While this series has mostly been for fun and a way to explore new concepts, I truly appreciate you taking the time to go along this journey with me. That being said, this will be the last part of our series on machine learning and neural networks.

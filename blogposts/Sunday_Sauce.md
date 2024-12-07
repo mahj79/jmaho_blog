@@ -1,6 +1,8 @@
 ---
 title: "Sunday Sauce"
 date: '2024-08-31'
+description: How to make mouth watering homemade red sauce.
+image: /images/Gabagool.jpg
 ---
 
 Sunday sauce. If you read my welcome post, you may have noticed that I mentioned how homemade pasta sauce is tastier, cheaper, and not much harder to make than simply buying store-bought sauce. Well, good news, this post is dedicated to homemade pasta sauce! If you're wondering where the title "Sunday Sauce" comes from, it's a commonly used term for family-style dinners on Sundays. The weekend is the perfect time to make this sauce because it takes a little longer to cook. I actually made this sauce just last Sunday for my fiancée and a friend, so the name fits perfectly.

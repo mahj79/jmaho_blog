@@ -1,6 +1,8 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 1)'
 date: '2024-07-10'
+description: The first post in Jack's machine learning series.
+image: /images/Neural_Network_Drawing.jpg
 ---
 
 This is the first post in a series that will focus on understanding key concepts of neural networks and machine learning. The information captured in each post is my best effort at taking complex topics such as linear algebra and turning them into simple explanations that anyone new to the subject of machine learning can understand. Key shoutouts belong to youtuber and educator [3Blue1Brown](https://www.youtube.com/@3blue1brown) (also known as Grant Sanderson), Michael Nielsen the author of [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html), and finally [MIT OpenCourseWare](https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&q=machine%20learning) which contains a plethora of free courses where you can learn about many things beyond just machine learning. These were the main sources of information where I learned and jotted down notes into my notebook for this post.

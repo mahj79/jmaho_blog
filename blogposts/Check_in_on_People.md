@@ -1,6 +1,8 @@
 ---
 title: 'Check in on People'
 date: '2024-06-20'
+description: Jack's thoughts on why it's important to reach out to your loved ones :).
+image: public/images/vail_headshot.jpg
 ---
 
 I was trying to think of things I could write about for my second blog post and kept coming back to the same thing. Check in on people and see how they're doing. It may seem like a simple act but sending a text that says "Hey, how you been?" or "We haven't caught up in awhile, you doing ok?" or even giving someone a call can mean a lot more to the person you're reaching out to than you realize. 
