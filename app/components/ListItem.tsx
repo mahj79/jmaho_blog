@@ -6,7 +6,7 @@ type Props = {
 }
 
 export default function ListItem({post}: Props) {
-    const {id, title, date} = post;
+    const {id, title, date, description, image} = post;
     const formattedDate = getFormattedDate(date);
     return(
         <li className="text-slate-100 mt-4 text-2xl dark:text-white/90">
