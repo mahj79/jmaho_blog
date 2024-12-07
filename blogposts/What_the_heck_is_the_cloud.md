@@ -2,6 +2,7 @@
 title: 'What the H*ck is the Cloud?'
 date: '2024-11-26'
 description: Brief intro on how Microsoft's Azure Cloud works.
+image: /images/Azure_Datacenter_Photo.jpg 
 ---
 
 Recently at work I was encouraged to get the [AZ-900 Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification) certification from Microsoft. The certification is essentially an acknowledgement that I am familiar with basic cloud concepts and specifically, how they apply to Microsoft’s cloud product; Azure. Now I’m not the biggest fan of certifications as I often feel they’re overrated relative to true work experience and not necessarily a good representation of what you truly know. But hey it’s a nice thing for work purposes and free since I got reimbursed for passing. 
