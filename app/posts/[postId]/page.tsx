@@ -2,9 +2,6 @@ import getFormattedDate from "@/lib/getFormattedDate";
 import { getPostData, getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
 
 export function generateStaticParams() {
     const posts = getSortedPostsData();
@@ -12,21 +9,6 @@ export function generateStaticParams() {
     return posts.map((post) => ({
         postId: post.id
     }))
-}
-
-const postsDirectory = path.join(process.cwd(), "posts");
-
-export async function getPostData(id: string) {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-
-  const matterResult = matter(fileContents);
-
-  return {
-    id,
-    contentHtml: matterResult.content, // Process this further for HTML rendering if needed
-    ...matterResult.data, // Includes title, date, description, image
-  };
 }
 
 export async function generateMetadata({ params }: { params: { postId: string } }) {
