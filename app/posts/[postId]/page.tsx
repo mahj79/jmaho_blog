@@ -34,8 +34,8 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         images: [
           {
             url: post.image ?? "https://mahoscorner.com/default-image.jpg",
-            width: 600,
-            height: 400,
+            width: 200,
+            height: 200,
           },
         ],
       },
@@ -65,7 +65,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
       <main className="text-gray-100 px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
         <h1 className="text-3xl text-gray-300 mt-4 mb-0">{title}</h1>
         <p className="text-gray-200 mt-0">{pubDate}</p>
-        {image && <img src={image} alt={description || title} className="mb-4" />}
+        {/* {image && <img src={image} alt={description || title} className="mb-4" width={400} height={400}/>} */}
         <article>
           <section
             className="text-gray-200 mt-0"
