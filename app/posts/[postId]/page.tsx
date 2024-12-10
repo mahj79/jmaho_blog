@@ -24,14 +24,14 @@ export async function generateMetadata({ params }: { params: { postId: string } 
   
     return {
       title: post.title,
-      description: post.description || "A blog post by Jack Mahoney",
+      description: post.description ?? "A blog post by Jack Mahoney",
       openGraph: {
         title: post.title,
         description: post.description,
         url: `https://mahoscorner.com/posts/${postId}`,
         images: [
           {
-            url: post.image || "https://mahoscorner.com/default-image.jpg",
+            url: post.image ?? "https://mahoscorner.com/default-image.jpg",
             width: 600,
             height: 400,
           },
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: { postId: string } 
         card: "summary_large_image",
         title: post.title,
         description: post.description,
-        images: [post.image || "https://mahoscorner.com/default-image.jpg"],
+        images: [post.image ?? "https://mahoscorner.com/default-image.jpg"],
       },
     };
   }
