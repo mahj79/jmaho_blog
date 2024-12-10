@@ -11,10 +11,12 @@ export function generateStaticParams() {
     }))
 }
 
-export async function generateMetadata({ params }: { params: { postId: string } }) {
-    const { postId } = params;
+export function generateMetadata({ params }: { params: { postId: string } }) {
   
-    const post = await getPostData(postId);
+    const posts = getSortedPostsData();
+    const { postId } = params;
+
+    const post = posts.find(post => post.id === postId);
   
     if (!post) {
       return {
