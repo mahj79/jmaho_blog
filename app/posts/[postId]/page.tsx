@@ -31,7 +31,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         title: post.title,
         description: post.description,
         url: `https://mahoscorner.com/posts/${postId}`,
-        images: [
+        image: [
           {
             url: post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg",
             width: 200,
@@ -43,9 +43,9 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         card: "summary_large_image",
         title: post.title,
         description: post.description,
-        site: `https://mahoscorner.com/`,
+        site: `@mahoneyj50`,
         creator: "@mahoneyj50",
-        images: [post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg"],
+        image: [post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg"],
       },
     };
   }
