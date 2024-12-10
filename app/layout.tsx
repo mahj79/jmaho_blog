@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://mahoscorner.com/_next/image?url=%2Fimages%2Fvail_headshot.jpg&w=256&q=75', // Must be an absolute URL
-        width: 800,
-        height: 600,
+        width: 200,
+        height: 200,
       },
     ]
   },
