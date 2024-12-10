@@ -43,6 +43,8 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         card: "summary_large_image",
         title: post.title,
         description: post.description,
+        site: `https://mahoscorner.com/`,
+        creator: "@mahoneyj50",
         images: [post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg"],
       },
     };
