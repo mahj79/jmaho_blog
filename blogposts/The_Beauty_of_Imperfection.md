@@ -24,3 +24,4 @@ So, don’t be too hard on yourself. Try not to dwell on what went wrong. Instea
 
 After all, mistakes are really just happy accidents.
 
+![Mistakes are really Happy Accidents](/images/Bob_Ross_Happy_Accidents.jpg "Mistakes are really Happy Accidents")
