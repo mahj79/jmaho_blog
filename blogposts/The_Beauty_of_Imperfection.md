@@ -2,7 +2,7 @@
 title: 'The Beauty of Imperfection: Why Mistakes Make Us Human'
 date: '2024-12-12'
 description: Jack's thoughts on why you can find joy in mistakes.
-image: public/images/Bob_Ross_Happy_Accidents.jpg
+image: /images/Bob_Ross_Happy_Accidents.jpg
 ---
 
 It’s officially the holiday season, which means plenty of cooking and baking. And with cooking and baking often come countless imperfections: overbaked, underbaked, not enough salt, too much seasoning, burnt, too tough, still raw—the list goes on. As one does during the holidays, I’ve spent my fair share of time recently trying to create food that others will enjoy. However, I still struggle to produce perfect results every time. It’s not because I’m not following instructions (though sometimes I wing it), not paying attention, or because I’m a bad cook. I believe it’s more a reflection of how difficult it is to truly make something perfect.

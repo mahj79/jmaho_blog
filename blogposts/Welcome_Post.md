@@ -2,7 +2,7 @@
 title: "Welcome to Jack's Blog!"
 date: '2024-06-11'
 description: Welcome post about Jack's Blog.
-image: public/images/vail_headshot.jpg
+image: /images/vail_headshot.jpg
 ---
 
 Hello and thank you for taking the time to read my first official blog post! I appreciate you visiting my blog and hopefully you'll enjoy some of the thoughts I jot down that pass through my head. 
