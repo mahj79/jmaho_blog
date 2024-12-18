@@ -36,7 +36,7 @@ export default function ListItem({post}: Props) {
                 </div>
                 
                 <div className="flex justify-between items-center text-gray-500 text-sm">
-                    <p className="text-slate-100 text-sm mt-1">
+                    <p className="text-black-100 text-sm mt-1">
                         {description}
                     </p>
                 </div>
