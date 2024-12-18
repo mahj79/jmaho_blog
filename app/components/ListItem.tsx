@@ -14,7 +14,7 @@ export default function ListItem({post}: Props) {
             {/* Image Container */}
             <div className="relative w-24 h-24 flex-shrink-0">
                 <Image 
-                    src={`/public/images/${image}`} 
+                    src={image} 
                     alt={title}
                     fill
                     className="object-cover rounded-lg"
