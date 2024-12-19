@@ -26,7 +26,7 @@ export default function ListItem({post}: Props) {
                     />
                 </div>
                 
-                <div className="p-6 bg-zinc-500/70 border-2 border-black rounded-sm bg-black">
+                <div className="p-6 bg-zinc-500/70 border-2 border-black bg-black">
                     {/* Title Section */}
                     <h2 className="mb-3">
                         <Link 
