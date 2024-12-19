@@ -16,7 +16,7 @@ export default function ListItem({post}: Props) {
                 className="bg-gray border-4 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
                 {/* Image Container */}
-                <div className="relative w-full h-48 border-4 border-black">
+                <div className="relative w-full h-60 border-4 border-black">
                     <Image 
                         src={image} 
                         alt={title}
@@ -26,19 +26,19 @@ export default function ListItem({post}: Props) {
                     />
                 </div>
                 
-                <div className="p-6 bg-gray-400 border-2 border-black rounded-sm bg-black">
+                <div className="p-6 bg-zinc-500/70 border-2 border-black rounded-sm bg-black">
                     {/* Title Section */}
                     <h2 className="mb-3">
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-2xl font-bold text-gray-900 hover:text-green-800 transition"
+                            className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition"
                         >
                             {title}
                         </Link>
                     </h2>
                     
                     {/* Description */}
-                    <h3 className="text-black mb-4">
+                    <h3 className="text-black mb-4 text-lg">
                         {description}
                     </h3>
                     
@@ -51,7 +51,7 @@ export default function ListItem({post}: Props) {
                         {/* Read More Link */}
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-black font-bold hover:text-green-800 transition"
+                            className="text-black font-bold hover:text-blue-800 transition"
                         >
                             Read More →
                         </Link>
