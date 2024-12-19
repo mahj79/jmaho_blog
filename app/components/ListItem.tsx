@@ -16,7 +16,7 @@ export default function ListItem({post}: Props) {
                 className="bg-gray border-4 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
                 {/* Image Container */}
-                <div className="relative w-full h-60 border-4 border-black">
+                <div className="relative w-full border-4 border-black aspect-[9/4]">
                     <Image 
                         src={image} 
                         alt={title}
