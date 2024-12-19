@@ -11,7 +11,7 @@ export default function ListItem({post}: Props) {
     const formattedDate = getFormattedDate(date);
     
     return (
-        <li className="mt-4 w-full md:max-w-2xl mx-auto">
+        <li className="mt-12 w-full md:max-w-2xl mx-auto">
             <div 
                 className="bg-gray border-4 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
