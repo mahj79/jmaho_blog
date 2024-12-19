@@ -11,12 +11,12 @@ export default function ListItem({post}: Props) {
     const formattedDate = getFormattedDate(date);
     
     return (
-        <li className="mt-4">
+        <li className="mt-4 w-full md:max-w-2xl mx-auto">
             <div 
-                className="bg-white border rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-gray border-4 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
                 {/* Image Container */}
-                <div className="relative w-full h-48">
+                <div className="relative w-full h-48 border-4 border-black">
                     <Image 
                         src={image} 
                         alt={title}
@@ -26,24 +26,24 @@ export default function ListItem({post}: Props) {
                     />
                 </div>
                 
-                <div className="p-6">
+                <div className="p-6 bg-gray-400 border-2 border-black rounded-sm bg-black">
                     {/* Title Section */}
                     <h2 className="mb-3">
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition"
+                            className="text-2xl font-bold text-gray-900 hover:text-green-800 transition"
                         >
                             {title}
                         </Link>
                     </h2>
                     
                     {/* Description */}
-                    <p className="text-gray-600 mb-4">
+                    <h3 className="text-black mb-4">
                         {description}
-                    </p>
+                    </h3>
                     
                     {/* Metadata */}
-                    <div className="flex items-center justify-between text-sm text-gray-500">
+                    <div className="flex items-center justify-between text-sm text-black">
                         <div className="flex items-center space-x-4">
                             <span>{formattedDate}</span>
                         </div>
@@ -51,7 +51,7 @@ export default function ListItem({post}: Props) {
                         {/* Read More Link */}
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-blue-600 hover:text-blue-800 transition"
+                            className="text-black font-bold hover:text-green-800 transition"
                         >
                             Read More →
                         </Link>
