@@ -18,14 +18,17 @@ export default function ListItem({post}: Props) {
 
                 {/* Image Container */}
                 <div className="relative w-full border-4 border-black aspect-[9/4]">
-                    <Image 
-                        src={image} 
-                        alt={title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    />
-                    
+                    <Link
+                        href={`/posts/${id}`}
+                    >
+                        <Image 
+                            src={image} 
+                            alt={title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                    </Link>
                 </div>
                 
                 <div className="p-6 bg-zinc-500/70 border-4 border-black bg-black">
