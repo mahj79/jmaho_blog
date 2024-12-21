@@ -25,9 +25,7 @@ export default function ListItem({post}: Props) {
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
-                    <Link>
-                        href={`/posts/${id}`}
-                    </Link>
+                    
                 </div>
                 
                 <div className="p-6 bg-zinc-500/70 border-4 border-black bg-black">
