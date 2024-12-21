@@ -21,14 +21,16 @@ export default function ListItem({post}: Props) {
                     <Link
                         href={`/posts/${id}`}
                     >
+                    
+                        <Image 
+                            src={image} 
+                            alt={title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+
                     </Link>
-                    <Image 
-                        src={image} 
-                        alt={title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    />
                     
                 </div>
                 
