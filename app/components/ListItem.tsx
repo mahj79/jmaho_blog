@@ -15,6 +15,7 @@ export default function ListItem({post}: Props) {
             <div 
                 className="bg-gray rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
+
                 {/* Image Container */}
                 <div className="relative w-full border-4 border-black aspect-[9/4]">
                     <Image 
@@ -24,6 +25,9 @@ export default function ListItem({post}: Props) {
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
+                    <Link>
+                        href={`/posts/${id}`}
+                    </Link>
                 </div>
                 
                 <div className="p-6 bg-zinc-500/70 border-4 border-black bg-black">
