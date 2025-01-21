@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Maho's Corner",
     images: [
       {
-        url: 'https://mahoscorner.com/_next/image?url=%2Fimages%2Fvail_headshot.jpg&w=256&q=75', // Must be an absolute URL
+        url: 'https://mahoscorner.com/_next/image?url=%2Fimages%2FMahos_Corner_Final.jpg&w=828&q=75', // Must be an absolute URL
         width: 200,
         height: 200,
       },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
     description: "Created by Jack Mahoney to blog about all things going through his head",
     creator: '@mahoneyj50',
-    images: ['https://mahoscorner.com/_next/image?url=%2Fimages%2Fvail_headshot.jpg&w=256&q=75'],
+    images: ['https://mahoscorner.com/_next/image?url=%2Fimages%2FMahos_Corner_Final.jpg&w=828&q=75'],
   }
 };
 
