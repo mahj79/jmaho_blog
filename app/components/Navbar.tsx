@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="prose prose-xl mx-auto flex justify-between flex-column sm:flex-row">
                 <h1 className="text-3xl font-bold text-white grid place-content-center mb-2 md:mb-0">
                     <Link href="/" className="text-white/90 no-underline hover:text-white">
-                        Maho's Corner
+                        Maho&apos;s Corner
                     </Link> 
                 </h1>
                 <div className="flex flex-row justify center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
