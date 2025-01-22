@@ -33,7 +33,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         url: `https://mahoscorner.com/posts/${postId}`,
         images: [
           {
-            url: post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg",
+            url: post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/_next/image?url=%2Fimages%2FMahos_Corner_Final.jpg&w=828&q=75",
             width: 200,
             height: 200,
           },
@@ -45,7 +45,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         description: post.description,
         site: `@mahoneyj50`,
         creator: "@mahoneyj50",
-        images: [post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/default-image.jpg"],
+        images: [post.image ? `https://mahoscorner.com/${post.image}`: "https://mahoscorner.com/_next/image?url=%2Fimages%2FMahos_Corner_Final.jpg&w=828&q=75"],
       },
     };
   }
