@@ -65,8 +65,8 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
   
     return (
       <main className="text-gray-100 px-6 prose prose-base sm:prose-2xl prose-slate dark:prose-invert mx-auto">
-        <h1 className="text-2xl sm:text-3xl text-gray-300 mt-2 mb-0">{title}</h1>
-        <p className="text-sm sm:text-lg text-gray-200 mt-2">{pubDate}</p>
+        <h1 className="text-2xl sm:text-4xl text-gray-300 mt-4 mb-1">{title}</h1>
+        <p className="text-sm sm:text-lg text-gray-200 mt-0 mb-4">{pubDate}</p>
         
         <article>
           <section
