@@ -12,16 +12,10 @@ export default function ListItem({post}: Props) {
     
     return (
         <li className="mt-12 w-full md:max-w-2xl mx-auto">
-            <div 
-                className="bg-gray rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
-            >
-
+            <div className="bg-zinc-500/70 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-black">
                 {/* Image Container */}
-                <div className="relative w-full border-4 border-black aspect-[9/4]">
-                    <Link
-                        href={`/posts/${id}`}
-                    >
-                    
+                <div className="relative w-full aspect-[9/4]">
+                    <Link href={`/posts/${id}`}>
                         <Image 
                             src={image} 
                             alt={title}
@@ -29,37 +23,29 @@ export default function ListItem({post}: Props) {
                             className="object-cover"
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
-
                     </Link>
-                    
                 </div>
                 
-                <div className="p-6 bg-zinc-500/70 border-4 border-black bg-black">
-                    {/* Title Section */}
+                {/* Content Container */}
+                <div className="p-6 border-t-4 border-black">
                     <h2 className="mb-3">
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition"
+                            className="text-2xl font-bold text-black hover:text-blue-700 transition"
                         >
                             {title}
                         </Link>
                     </h2>
                     
-                    {/* Description */}
                     <h3 className="text-black mb-4 text-lg">
                         {description}
                     </h3>
                     
-                    {/* Metadata */}
                     <div className="flex items-center justify-between text-sm text-black">
-                        <div className="flex items-center space-x-4">
-                            <span>{formattedDate}</span>
-                        </div>
-                        
-                        {/* Read More Link */}
+                        <span>{formattedDate}</span>
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-black font-bold hover:text-blue-800 transition"
+                            className="text-black font-bold hover:text-blue-700 transition"
                         >
                             Read More →
                         </Link>

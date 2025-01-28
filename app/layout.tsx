@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
+import { Space_Grotesk } from 'next/font/google'
+
+const spaceGrotesk = Space_Grotesk({ 
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -43,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={spaceGrotesk.className}>
       <head>
           <link rel="shortcut icon" href="/images/icon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
