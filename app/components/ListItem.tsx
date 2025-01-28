@@ -27,21 +27,21 @@ export default function ListItem({post}: Props) {
                 </div>
                 
                 {/* Content Container */}
-                <div className="p-6 border-t-4 border-black">
-                    <h2 className="mb-3">
+                <div className="p-4 sm:p-6 border-t-4 border-black">
+                    <h2 className="mb-2 sm:mb-3">
                         <Link 
                             href={`/posts/${id}`}
-                            className="text-2xl font-bold text-black hover:text-blue-700 transition"
+                            className="text-xl sm:text-2xl font-bold text-black hover:text-blue-700 transition"
                         >
                             {title}
                         </Link>
                     </h2>
                     
-                    <h3 className="text-black mb-4 text-lg">
+                    <h3 className="text-sm sm:text-lg text-black mb-3 sm:mb-4">
                         {description}
                     </h3>
                     
-                    <div className="flex items-center justify-between text-sm text-black">
+                    <div className="flex items-center justify-between text-xs sm:text-sm text-black">
                         <span>{formattedDate}</span>
                         <Link 
                             href={`/posts/${id}`}
