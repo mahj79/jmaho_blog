@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import { Space_Grotesk } from 'next/font/google'
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
@@ -56,7 +57,9 @@ export default function RootLayout({
           <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-16x16.png"/>
       </head>
+   
       <body className="bg-emerald-700 text-slate-100">
+        <GoogleAnalytics GA_MEASUREMENT_ID="G-PPCT2EJWCF" />
         <Navbar />
         <MyProfilePic />
         {children}
