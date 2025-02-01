@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import { Space_Grotesk } from 'next/font/google'
+import AboutMe from "./components/AboutMe";
 
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
@@ -59,6 +60,7 @@ export default function RootLayout({
       <body className="bg-emerald-700 text-slate-100">
         <Navbar />
         <MyProfilePic />
+        {/* <AboutMe /> */}
         {children}
         </body>
     </html>
