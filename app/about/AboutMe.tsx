@@ -17,7 +17,7 @@ export default function AboutMe() {
                 alt="Profile picture of Jack Mahoney"
                 priority={true}
             />
-                In my continuous pursuit to be a lifelong learner, I decided to create this blog "Maho&apos;s Corner" in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
+                In my continuous pursuit to be a lifelong learner, I decided to create this blog &quot;Maho&apos;s Corner&quot; in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
                 <br />
                 <br />
                 Maho&apos;s Corner is meant to be a place where all are welcome. It is a place for learners of all ages and any background. You are welcome to reach out to me on any of my socials linked in the navbar. If you are particularly interested in a subject and want me to write about it, then by all means, contact me via one of my socials, or my email: mahonej79@gmail.com and tell me about what you&apos;re interested in!
@@ -48,7 +48,7 @@ export default function AboutMe() {
 
             <h2 className="text-xl sm:text-2xl font-bold underline mt-4">Resume</h2>
             <p className="text-sm sm:text-lg mt-2 mb-4">
-                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as "a serial smiler", due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
+                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as &quot;a serial smiler&quot;, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
                 <br />
                 <br />
                 <p className="font-bold underline">Lead Enterprise Architect (2022 - Present)</p>
@@ -65,7 +65,6 @@ export default function AboutMe() {
                 <p className="font-bold underline">Senior Consultant - Cybersecurity (2018 - 2022)</p>
                 - Led projects to maximize cybersecurity maturity, leveraging expertise in NIST and ISO 27001 standards. Identified compliance risks, reduced unnecessary spending, and strengthened network security by addressing top cyber threats. Responsible for implementing secure Software Development Lifecycle (SDLC) practices for clients.
                 <br />
-
                 <br />
                 - Served multiple Fortune 500 clients, as well as other clients in a diverse array of industries on how to reduce overall cyber risk by leveraging industry leading practices for Asset Management at the foundational level. Managed multiple clients, presenting deliverables to executive-level leadership.
                 <br />
@@ -77,11 +76,9 @@ export default function AboutMe() {
                 - Built and deployed mahoscorner.com website using modern front-end technologies such as TypeScript, Tailwind CSS, React / Next.js, HTML, front-end components, and markdown to build my own blog to write about interesting subjects like machine learning.    
                 <br />  
                 <br />
-
-                - Built a JSON API project in Go using JSON Web Token authentication, PostgreSQL integration, and Docker deployment. Project simulates building of a bank API from scratch, with optimized performance by utilizing only essential packages. Completed  implementation of thorough testing for each HTTP handler to ensure a reliable and secure API
+                - Built a JSON API project in Go using JSON Web Token authentication, PostgreSQL integration, and Docker deployment. Project simulates building of a bank API from scratch, with optimized performance by utilizing only essential packages. Completed implementation of thorough testing for each HTTP handler to ensure a reliable and secure API
                 <br />
                 <br />
-
                 <p className="font-bold underline">Skills</p>
                 <p className="font-bold underline">Software Engineering Skills:</p>
                 - Front-End: JavaScript, TypeScript, CSS, HTML, React
@@ -101,12 +98,9 @@ export default function AboutMe() {
                 - Enterprise application architecture and strategies 
                 <br />
                 - Disaster recovery planning, testing, and fault tolerance strategies
-
-
                 <br />
                 <br />
                 <br />
-                
             </p>
             
             <p className="text-sm sm:text-lg font-bold underline">
