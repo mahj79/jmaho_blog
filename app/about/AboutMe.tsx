@@ -58,7 +58,7 @@ export default function AboutMe() {
                 - Established Platform Guidance Program to assess complete software footprint across the org. Rationalize software products for redundancy. Publish guidance on products to grow, maintain, or to retire, based on future technology strategies.
                 <br />
                 <br />
-                - Matured the org&apos;s API lifecycle management program by developing key strategies to perform effective API secrets and key security measures. Results improved developer experience and reduced security risks.
+                - Matured the org&apos;s API lifecycle management program by developing key strategies to perform effective API secrets management and enforce key security measures. Results improved developer experience and reduced security risks.
                 <br />
                 <br />
                
