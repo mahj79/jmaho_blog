@@ -1,15 +1,22 @@
 //About me section
-import Link from "next/link"
+import Image from "next/image"
 
 export default function AboutMe() {
     
     return (
         <section className="text-slate-100 mt-6 mx-auto max-w-2xl">
-            <h2 className="text-2xl font-bold dark:text-white/90">Introduction</h2>
+            <h2 className="text-2xl font-bold dark:text-white/90 underline">Introduction</h2>
             <p className="text-lg text-slate-200 mt-2">
                 Thanks for taking the time to learn more about me, the creator behind Maho&apos;s Corner! My name is Jack Mahoney or more commonly known as what my friends call me, Maho. I am a software engineer / enterprise architect based in Chicago. 
-                <br />
-                <br />
+                <Image
+                className="border-4 border-black dark:border-slate-500 drop-shadow-xl 
+                shadow-black rounded-3xl mx-auto mt-4 mb-4"
+                src={"/images/vail_headshot.jpg"}
+                width={200}
+                height={100}
+                alt="Profile picture of Jack Mahoney"
+                priority={true}
+            />
                 In my continuous pursuit to be a lifelong learner, I decided to create this blog “Maho&apos;s Corner” in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
                 <br />
                 <br />
@@ -19,7 +26,7 @@ export default function AboutMe() {
                 <br />
             </p>
 
-            <h2 className="text-2xl font-bold dark:text-white/90">Background</h2>
+            <h2 className="text-2xl font-bold dark:text-white/90 underline">Background</h2>
             <p className="text-lg text-slate-200 mt-2 mb-4">
                 While my job titles may imply that all I do is code, I actually like to think of myself simply as a problem solver. Throughout my whole life and especially since I started my career, I became known as the guy who would find an answer to a complicated problem. I think this is mostly in part for a few reasons. 
                 <br />
@@ -39,41 +46,62 @@ export default function AboutMe() {
                 <br />
             </p>
 
-            <h2 className="text-2xl font-bold dark:text-white/90">Resume</h2>
+            <h2 className="text-2xl font-bold dark:text-white/90 underline">Resume</h2>
             <p className="text-lg text-slate-200 mt-2 mb-4">
-                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn’t easily phased by pressure or stress. He’s even been described as “a serial smiler”, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
+                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as “a serial smiler”, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
                 <br />
                 <br />
-                Lead Enterprise Architect (2022 - Present)
-                <br/>
-                Researched and presented Machine Learning and Neural Networks findings to 300+ engineers. Including live demonstrations with python to highlight impacts of fine tuning weights and biases
-                Established Platform Guidance Program to assess complete software footprint across the org. Rationalize software products for redundancy. Publish guidance on products to grow, maintain, or to retire, based on future technology strategies.
-                Matured the org’s API lifecycle management program by developing key strategies to perform effective API secrets and key security measures. Results improved developer experience and reduced security risks.
+                <p className="font-bold underline">Lead Enterprise Architect (2022 - Present)</p>
+                - Researched and presented Machine Learning and Neural Networks findings to 300+ engineers. Including live demonstrations with python to highlight impacts of fine tuning weights and biases.
+                <br />
+                <br />  
+                - Established Platform Guidance Program to assess complete software footprint across the org. Rationalize software products for redundancy. Publish guidance on products to grow, maintain, or to retire, based on future technology strategies.
                 <br />
                 <br />
-                Senior Consultant - Cybersecurity (2018 - 2022)
-                <br />
-                Led projects to maximize cybersecurity maturity, leveraging expertise in NIST and ISO 27001 standards. Identified compliance risks, reduced unnecessary spending, and strengthened network security by addressing top cyber threats. Responsible for implementing secure Software Development Lifecycle (SDLC) practices for clients.
-                Served multiple Fortune 500 clients, as well as other clients in a diverse array of industries on how to reduce overall cyber risk by leveraging industry leading practices for Asset Management at the foundational level. Managed multiple clients, presenting deliverables to executive-level leadership.
-                Responsible for optimizing Oracle footprint for client environments, including developing and deploying SQL scripts to identify database performance improvements and compliance gaps. Implemented performance improvements in Java and Oracle database environments, reducing spending by 20%.
+                - Matured the org&apos;s API lifecycle management program by developing key strategies to perform effective API secrets and key security measures. Results improved developer experience and reduced security risks.
                 <br />
                 <br />
-                Fun Projects		
-                <br />  	            
-                Built and deployed mahoscorner.com website using modern front-end technologies such as TypeScript, Tailwind CSS, React / Next.js, HTML, front-end components, and markdown to build my own blog to write about interesting subjects like machine learning.
-                Built a JSON API project in Go using JSON Web Token authentication, PostgreSQL integration, and Docker deployment. Project simulates building of a bank API from scratch, with optimized performance by utilizing only essential packages. Completed  implementation of thorough testing for each HTTP handler to ensure a reliable and secure API
+               
+                <p className="font-bold underline">Senior Consultant - Cybersecurity (2018 - 2022)</p>
+                - Led projects to maximize cybersecurity maturity, leveraging expertise in NIST and ISO 27001 standards. Identified compliance risks, reduced unnecessary spending, and strengthened network security by addressing top cyber threats. Responsible for implementing secure Software Development Lifecycle (SDLC) practices for clients.
+                <br />
 
-                Skills
-                Software Engineering Skills:
-                Front-End: JavaScript, TypeScript, CSS, HTML, React
-                Data: SQL, PostgreSQL, Supabase
-                Back-End: Go, Node.JS, C
-                Tooling: VS Code, Git, Azure DevOps, Cursor.ai, ServiceNow, Azure Cloud (Certified), Amazon AWS, Docker
-                Additional Technical Skills:
-                Network technologies, protocols, ports, API management, and network segmentation strategies
-                Machine Learning and LLMs (Large Language Models)
-                Enterprise application architecture and strategies 
-                Disaster recovery planning, testing, and fault tolerance strategies
+                <br />
+                - Served multiple Fortune 500 clients, as well as other clients in a diverse array of industries on how to reduce overall cyber risk by leveraging industry leading practices for Asset Management at the foundational level. Managed multiple clients, presenting deliverables to executive-level leadership.
+                <br />
+                <br />
+                - Responsible for optimizing Oracle footprint for client environments, including developing and deploying SQL scripts to identify database performance improvements and compliance gaps. Implemented performance improvements in Java and Oracle database environments, reducing spending by 20%.
+                <br />
+                <br />
+                <p className="font-bold underline">Fun Projects</p>		
+                - Built and deployed mahoscorner.com website using modern front-end technologies such as TypeScript, Tailwind CSS, React / Next.js, HTML, front-end components, and markdown to build my own blog to write about interesting subjects like machine learning.    
+                <br />  
+                <br />
+
+                - Built a JSON API project in Go using JSON Web Token authentication, PostgreSQL integration, and Docker deployment. Project simulates building of a bank API from scratch, with optimized performance by utilizing only essential packages. Completed  implementation of thorough testing for each HTTP handler to ensure a reliable and secure API
+                <br />
+                <br />
+
+                <p className="font-bold underline">Skills</p>
+                <p className="font-bold underline">Software Engineering Skills:</p>
+                - Front-End: JavaScript, TypeScript, CSS, HTML, React
+                <br />
+                - Data: SQL, PostgreSQL, Supabase
+                <br />
+                - Back-End: Go, Node.JS, C
+                <br />
+                - Tooling: VS Code, Git, Azure DevOps, Cursor.ai, ServiceNow, Azure Cloud (Certified), Amazon AWS, Docker
+                <br />
+                <br />
+                <p className="font-bold underline">Additional Technical Skills:</p>
+                - Network technologies, protocols, ports, API management, and network segmentation strategies
+                <br />
+                - Machine Learning and LLMs (Large Language Models)
+                <br />
+                - Enterprise application architecture and strategies 
+                <br />
+                - Disaster recovery planning, testing, and fault tolerance strategies
+
 
                 <br />
                 <br />
