@@ -4,9 +4,9 @@ import Image from "next/image"
 export default function AboutMe() {
     
     return (
-        <section className="text-slate-100 mt-6 mx-auto max-w-2xl">
-            <h2 className="text-2xl font-bold dark:text-white/90 underline">Introduction</h2>
-            <p className="text-lg text-slate-200 mt-2">
+        <section className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl mx-auto max-w-2xl w-full">
+            <h2 className="text-xl sm:text-2xl font-bold underline">Introduction</h2>
+            <p className="text-sm sm:text-lg mt-2">
                 Thanks for taking the time to learn more about me, the creator behind Maho&apos;s Corner! My name is Jack Mahoney or more commonly known as what my friends call me, Maho. I am a software engineer / enterprise architect based in Chicago. 
                 <Image
                 className="border-4 border-black dark:border-slate-500 drop-shadow-xl 
@@ -17,7 +17,7 @@ export default function AboutMe() {
                 alt="Profile picture of Jack Mahoney"
                 priority={true}
             />
-                In my continuous pursuit to be a lifelong learner, I decided to create this blog “Maho&apos;s Corner” in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
+                In my continuous pursuit to be a lifelong learner, I decided to create this blog "Maho&apos;s Corner" in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
                 <br />
                 <br />
                 Maho&apos;s Corner is meant to be a place where all are welcome. It is a place for learners of all ages and any background. You are welcome to reach out to me on any of my socials linked in the navbar. If you are particularly interested in a subject and want me to write about it, then by all means, contact me via one of my socials, or my email: mahonej79@gmail.com and tell me about what you&apos;re interested in!
@@ -26,8 +26,8 @@ export default function AboutMe() {
                 <br />
             </p>
 
-            <h2 className="text-2xl font-bold dark:text-white/90 underline">Background</h2>
-            <p className="text-lg text-slate-200 mt-2 mb-4">
+            <h2 className="text-xl sm:text-2xl font-bold underline mt-4">Background</h2>
+            <p className="text-sm sm:text-lg mt-2 mb-4">
                 While my job titles may imply that all I do is code, I actually like to think of myself simply as a problem solver. Throughout my whole life and especially since I started my career, I became known as the guy who would find an answer to a complicated problem. I think this is mostly in part for a few reasons. 
                 <br />
                 <br />
@@ -46,9 +46,9 @@ export default function AboutMe() {
                 <br />
             </p>
 
-            <h2 className="text-2xl font-bold dark:text-white/90 underline">Resume</h2>
-            <p className="text-lg text-slate-200 mt-2 mb-4">
-                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as “a serial smiler”, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
+            <h2 className="text-xl sm:text-2xl font-bold underline mt-4">Resume</h2>
+            <p className="text-sm sm:text-lg mt-2 mb-4">
+                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as "a serial smiler", due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
                 <br />
                 <br />
                 <p className="font-bold underline">Lead Enterprise Architect (2022 - Present)</p>
@@ -107,6 +107,10 @@ export default function AboutMe() {
                 <br />
                 <br />
                 
+            </p>
+            
+            <p className="text-sm sm:text-lg font-bold underline">
+                {/* Section titles */}
             </p>
         </section>
     )
