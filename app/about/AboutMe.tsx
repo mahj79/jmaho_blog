@@ -1,0 +1,85 @@
+//About me section
+import Link from "next/link"
+
+export default function AboutMe() {
+    
+    return (
+        <section className="text-slate-100 mt-6 mx-auto max-w-2xl">
+            <h2 className="text-2xl font-bold dark:text-white/90">Introduction</h2>
+            <p className="text-lg text-slate-200 mt-2">
+                Thanks for taking the time to learn more about me, the creator behind Maho&apos;s Corner! My name is Jack Mahoney or more commonly known as what my friends call me, Maho. I am a software engineer / enterprise architect based in Chicago. 
+                <br />
+                <br />
+                In my continuous pursuit to be a lifelong learner, I decided to create this blog “Maho&apos;s Corner” in early 2024 to tone up some of my front end programming skills. But also to write about topics I found interesting, as I find writing a bit therapeutic. The inspiration behind Maho&apos;s Corner is to approach traditionally complex technical subjects like Machine Learning and break them down to be simple enough for anyone to walk away from an article and feel like they&apos;ve learned something. The other part is to write about things I enjoy, such as cooking, sports, and being there for the people I care about. 
+                <br />
+                <br />
+                Maho&apos;s Corner is meant to be a place where all are welcome. It is a place for learners of all ages and any background. You are welcome to reach out to me on any of my socials linked in the navbar. If you are particularly interested in a subject and want me to write about it, then by all means, contact me via one of my socials, or my email: mahonej79@gmail.com and tell me about what you&apos;re interested in!
+                <br />
+                <br />
+                <br />
+            </p>
+
+            <h2 className="text-2xl font-bold dark:text-white/90">Background</h2>
+            <p className="text-lg text-slate-200 mt-2 mb-4">
+                While my job titles may imply that all I do is code, I actually like to think of myself simply as a problem solver. Throughout my whole life and especially since I started my career, I became known as the guy who would find an answer to a complicated problem. I think this is mostly in part for a few reasons. 
+                <br />
+                <br />
+                With the main reason being I simply love solving problems. I think ever since I was young, I would spend hours solving puzzles growing up. Then as I got older I gravitated towards engineering because that&apos;s where the challenging problems were. I would get a sense of satisfaction for completing something complex, that you just don&apos;t get from figuring out simple or menial tasks. There&apos;s joy derived from putting in the effort and recognizing the effort it takes to achieve the outcome you want. 
+                <br />
+                <br />
+                Speaking of growing up, I grew up in the middle of Michigan, near the state&apos;s capitol; Lansing. After high school, I attended Michigan State University and studied Electrical and Computer Engineering. This is where I first learned to code and understand hardware at the most granular of levels. The first two programming languages I learned were C and Assembly, because for whatever reason electrical engineers have to turn the clock back to the stone ages to truly understand the inner workings of a computer. After 4 years I graduated and received a degree in Electrical and Computer Engineering. I am particularly proud of this, as I am a first generation college graduate. At Michigan State is where I first learned to code. 
+                <br />
+                <br />
+                Following graduation, I moved to Chicago to live with my best friends. I always wanted to live in a big city and in my completely biased opinion, Chicago is one of the best cities in the world so naturally it made sense. Not really knowing what I wanted to do, I spent a few years in cybersecurity consulting. I learned a lot, but after getting burned out, I realized I wanted to do a small career pivot. I wanted to get further back into software engineering and also travel less, so that&apos;s how I ended up at my current job as an enterprise architect for a big bank. 
+                <br />
+                <br />
+                For the most part, life is good. I have a great fiancee and a super cute french bulldog, Cleo. Cleo is the dog pictured in my main cover art. Hopefully you&apos;ve enjoyed getting to learn a little bit more about me and I hope you continue to visit Maho&apos;s Corner to see what I write about next!
+                <br />
+                <br />      
+                <br />
+            </p>
+
+            <h2 className="text-2xl font-bold dark:text-white/90">Resume</h2>
+            <p className="text-lg text-slate-200 mt-2 mb-4">
+                Jack is a skilled engineer who has an amazing track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn’t easily phased by pressure or stress. He’s even been described as “a serial smiler”, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor, thanks to his flexibility to adapt to whatever the situation calls for. 
+                <br />
+                <br />
+                Lead Enterprise Architect (2022 - Present)
+                <br/>
+                Researched and presented Machine Learning and Neural Networks findings to 300+ engineers. Including live demonstrations with python to highlight impacts of fine tuning weights and biases
+                Established Platform Guidance Program to assess complete software footprint across the org. Rationalize software products for redundancy. Publish guidance on products to grow, maintain, or to retire, based on future technology strategies.
+                Matured the org’s API lifecycle management program by developing key strategies to perform effective API secrets and key security measures. Results improved developer experience and reduced security risks.
+                <br />
+                <br />
+                Senior Consultant - Cybersecurity (2018 - 2022)
+                <br />
+                Led projects to maximize cybersecurity maturity, leveraging expertise in NIST and ISO 27001 standards. Identified compliance risks, reduced unnecessary spending, and strengthened network security by addressing top cyber threats. Responsible for implementing secure Software Development Lifecycle (SDLC) practices for clients.
+                Served multiple Fortune 500 clients, as well as other clients in a diverse array of industries on how to reduce overall cyber risk by leveraging industry leading practices for Asset Management at the foundational level. Managed multiple clients, presenting deliverables to executive-level leadership.
+                Responsible for optimizing Oracle footprint for client environments, including developing and deploying SQL scripts to identify database performance improvements and compliance gaps. Implemented performance improvements in Java and Oracle database environments, reducing spending by 20%.
+                <br />
+                <br />
+                Fun Projects		
+                <br />  	            
+                Built and deployed mahoscorner.com website using modern front-end technologies such as TypeScript, Tailwind CSS, React / Next.js, HTML, front-end components, and markdown to build my own blog to write about interesting subjects like machine learning.
+                Built a JSON API project in Go using JSON Web Token authentication, PostgreSQL integration, and Docker deployment. Project simulates building of a bank API from scratch, with optimized performance by utilizing only essential packages. Completed  implementation of thorough testing for each HTTP handler to ensure a reliable and secure API
+
+                Skills
+                Software Engineering Skills:
+                Front-End: JavaScript, TypeScript, CSS, HTML, React
+                Data: SQL, PostgreSQL, Supabase
+                Back-End: Go, Node.JS, C
+                Tooling: VS Code, Git, Azure DevOps, Cursor.ai, ServiceNow, Azure Cloud (Certified), Amazon AWS, Docker
+                Additional Technical Skills:
+                Network technologies, protocols, ports, API management, and network segmentation strategies
+                Machine Learning and LLMs (Large Language Models)
+                Enterprise application architecture and strategies 
+                Disaster recovery planning, testing, and fault tolerance strategies
+
+                <br />
+                <br />
+                <br />
+                
+            </p>
+        </section>
+    )
+}

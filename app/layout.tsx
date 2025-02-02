@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 import { Space_Grotesk } from 'next/font/google'
-import AboutMe from "./components/AboutMe";
 import Link from "next/link";
 
 const spaceGrotesk = Space_Grotesk({ 
