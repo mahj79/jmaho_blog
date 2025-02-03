@@ -35,3 +35,6 @@ So, let’s summarize what we’ve learned up to this point. A neural network is
 
 Hopefully you’ve been able to follow along up to this point and if something isn’t making sense, please let me know! Also, feel free to check out the material I linked in the first post as that goes much deeper into specifics and contains a lot of helpful supplementary information. The next post will dive into the meat of how a program continuously trains itself over time to produce more accurate outcomes.
 
+Next up for final article: [Machine Learning Part 3!](https://mahoscorner.com/posts/Machine_Learning_Part_Three)
+
+Previous Article: [Machine Learning Part 1!](https://mahoscorner.com/posts/Machine_Learning_Part_One)

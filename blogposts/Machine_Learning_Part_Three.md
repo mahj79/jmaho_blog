@@ -35,3 +35,7 @@ To visualize this, imagine standing on top of a mountain. You know there’s a l
 Ok so let’s wrap it all up and put a bow on this series! A neural network is the foundation of how machine learning operates, designed to replicate the workings of neurons in the human brain. It’s composed of layers, with each layer performing a specific function based on what the neurons are programmed to detect. These layers are interconnected, using weights to inform one another about what the program is looking for, while biases help determine if the neurons are focusing on the right information. Together, weights and biases feed into a cost function, which is the mathematical backbone of the program, calculating its accuracy. The program then uses gradient descent to adjust these weights and biases, refining its accuracy over time.
 
 All of this forms the foundational understanding of how machine learning works. If you found these posts interesting, I highly recommend checking out the resources linked in the first post. I may explore related topics in future posts, but for now, that’s a wrap on this series. I hope you learned something new, and if you have any feedback, please share it!
+
+Second Article: [Machine Learning Part 2!](https://mahoscorner.com/posts/Machine_Learning_Part_Two)
+
+First Article:[Machine Learning Part 1!](https://mahoscorner.com/posts/Machine_Learning_Part_One)
