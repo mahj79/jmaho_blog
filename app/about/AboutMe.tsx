@@ -104,12 +104,11 @@ export default function AboutMe() {
                 - Disaster recovery planning, testing, and fault tolerance strategies
                 <br />
                 <br />
-                <br />
+              
             </div>
             
-            <p className="text-sm sm:text-lg font-bold underline">
-                {/* Section titles */}
-            </p>
+            
         </section>
+
     )
 }

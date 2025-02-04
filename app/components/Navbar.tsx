@@ -12,12 +12,19 @@ export default function Navbar() {
                     </Link> 
                 </h1>
 
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center gap-6">
                     <Link 
                         className="bg-emerald-700 hover:bg-emerald-600 text-white p-2 rounded-full transition-colors duration-200 mr-6 sm:mr-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2" 
                         href="/"
                     >
                         <FaHome className="text-2xl sm:text-3xl" />
+                    </Link>
+
+                    <Link 
+                        className=" text-white no-underline" 
+                        href="/about"
+                    >
+                        About Me!
                     </Link>
 
                     <div className="flex flex-row justify-center gap-6 sm:gap-4 text-3xl sm:text-4xl lg:text-5xl">
