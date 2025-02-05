@@ -21,8 +21,10 @@ export default function Navbar() {
                     </Link>
 
                     <Link 
-                        className=" text-white no-underline" 
-                        href="/about"
+                         className="text-white p-2 no-underline relative group text-xl
+                         before:content-[''] before:absolute before:w-full before:h-[2px] before:bg-gradient-to-r before:from-emerald-500 before:to-gray-400 before:top-[-5px] before:left-0 before:scale-x-0 before:origin-left before:transition-transform before:duration-400 before:ease-out hover:before:scale-x-100
+                         after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-gradient-to-r after:from-emerald-500 after:to-gray-400 after:bottom-[-5px] after:left-0 after:scale-x-0 after:origin-right after:transition-transform after:duration-400 after:ease-out hover:after:scale-x-100"
+                         href="/about"
                     >
                         About Me!
                     </Link>
