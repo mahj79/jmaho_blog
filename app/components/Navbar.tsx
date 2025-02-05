@@ -4,7 +4,7 @@ import { FaTwitter, FaGithub, FaLinkedin, FaHome } from "react-icons/fa"
 
 export default function Navbar() {
     return (
-        <nav className="bg-emerald-900 p-4 sticky top-0 drop-shadow-xl z-10">
+        <nav className="bg-gradient-to-r from-phthalo from-60% to-[#8faf93] p-4 sticky top-0 drop-shadow-xl z-10">
             <div className="prose prose-xl mx-auto flex flex-col sm:flex-row justify-between items-center">
                 <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-0">
                     <Link href="/" className="text-white/90 no-underline hover:text-white transition-colors duration-200">

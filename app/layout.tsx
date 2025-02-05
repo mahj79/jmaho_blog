@@ -58,12 +58,13 @@ export default function RootLayout({
           <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-16x16.png"/>
       </head>
    
-      <body className="bg-emerald-700 text-slate-100">
+      <body className="bg-gradient-to-r from-[#8faf93] from-0% to-phthalo to-50% text-slate-100">
         <GoogleAnalytics GA_MEASUREMENT_ID="G-PPCT2EJWCF" />
         <Navbar />
         <MyProfilePic />
         {children}
         </body>
+
     </html>
   );
 }
