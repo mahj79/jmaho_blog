@@ -6,52 +6,31 @@ type Props = {
     post: BlogPost
 }
 
-export default function ListItem({post}: Props) {
-    const {id, title, date, description, image} = post;
-    const formattedDate = getFormattedDate(date);
-    
+export default function ListItem({ post }: Props) {
     return (
-        <li className="mt-12 w-full md:max-w-2xl mx-auto">
-            <div className="bg-zinc-500/70 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-black">
-                {/* Image Container */}
-                <div className="relative w-full aspect-[9/4]">
-                    <Link href={`/posts/${id}`}>
-                        <Image 
-                            src={image} 
-                            alt={title}
-                            fill
-                            className="object-cover"
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        />
-                    </Link>
-                </div>
-                
-                {/* Content Container */}
-                <div className="p-4 sm:p-6 border-t-4 border-black">
-                    <h2 className="mb-2 sm:mb-3">
-                        <Link 
-                            href={`/posts/${id}`}
-                            className="text-xl sm:text-2xl font-bold text-black hover:text-blue-700 transition"
-                        >
-                            {title}
-                        </Link>
-                    </h2>
-                    
-                    <h3 className="text-sm sm:text-lg text-black mb-3 sm:mb-4">
-                        {description}
-                    </h3>
-                    
-                    <div className="flex items-center justify-between text-xs sm:text-sm text-black">
-                        <span>{formattedDate}</span>
-                        <Link 
-                            href={`/posts/${id}`}
-                            className="text-black font-bold hover:text-blue-700 transition"
-                        >
-                            Read More →
-                        </Link>
-                    </div>
-                </div>
+        <div className="bg-zinc-500/70 p-4 rounded-lg border-4 border-black shadow-md h-[400px] flex flex-col transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
+            <div className="w-full h-40 sm:h-48 md:h-56 border-2 border-black overflow-hidden rounded-lg mb-4">
+
+                <Link href={`/posts/${post.id}`}>
+                    <Image 
+                        src={post.image || '/images/default-cover.jpg'}
+                        alt={post.title}
+                        width={400}
+                        height={200}
+                        className="w-full h-full object-cover"
+                    />
+                </Link>
             </div>
-        </li>
+            <Link className="text-xl font-bold underline text-black hover:text-blue-700" href={`/posts/${post.id}`}>
+                {post.title}
+            </Link>
+            <p className="text-sm text-black mt-2">{getFormattedDate(post.date)}</p>
+            <p className="text-sm text-black mt-2 pt-2line-clamp-3">{post.description}</p>
+            <div className="mt-auto text-sm pt-2">
+                <Link href={`/posts/${post.id}`} className="text-black hover:text-blue-800">
+                    Read More →
+                </Link>
+            </div>
+        </div>
     )
 }

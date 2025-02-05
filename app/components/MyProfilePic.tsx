@@ -4,7 +4,7 @@ export default function MyProfilePic() {
     return (
         <section className="w-full mx-auto mb-4">
             <Image
-                className="border-4 border-black dark:border-slate-500 drop-shadow-xl 
+                className="border-4 border-black dark:border-slate-500 drop-shadow-2xl 
                 shadow-black rounded-3xl mx-auto mt-8"
                 src={"/images/Mahos_Corner_Final.jpg"}
                 width={800}
