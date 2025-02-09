@@ -1,7 +1,7 @@
 ---
 title: 'The 2024 Detroit Tigers'
 date: '2024-11-11'
-description: Jack's summary of the 2024 Detroit Tigers from a fan's perspective.
+description: The 2024 Detroit Tigers season will go down as one of the most memorable seasons in recent memory. This post is Jack's summary of the 2024 Detroit Tigers from a fan's perspective.
 image: /images/Tiger_Sox.JPG
 ---
 

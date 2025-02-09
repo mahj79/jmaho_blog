@@ -1,8 +1,9 @@
 ---
 title: 'Effective API Management (Part 1)'
 date: '2024-12-29'
-description: Jack's first post on effective API Management.
+description: Jack's first post of a 2 part series, on how to effectively manage you and your organization's APIs. This post will cover the planning and designing phases of an building an API.
 image: /images/API_Functions.jpg
+
 ---
 
 I’ll start this post by addressing all the doom and gloom mindset around AI taking everyone’s jobs. I find this particularly funny because there’s still so many problems out there that need solving and so much more work to be done. If you think AI is going to steal everyone’s jobs in the next year, you probably need to step outside, sip some coffee, and touch grass (or snow if you’re in the Midwest like me). Case and point, the irony in me dedicating a post to a specific use case: effective API management. Now I will say that if AI does make API management much easier than that would be lovely, as it is quite tricky and requires a ton of thought and careful considerations. But until then, please feel free to give this a read and come back to reference it whenever your boss asks you why you opted to push REST APIs over GraphQL. Let’s dive in!

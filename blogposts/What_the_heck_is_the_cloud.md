@@ -1,7 +1,7 @@
 ---
 title: 'What the H*ck is the Cloud?'
 date: '2024-11-26'
-description: Brief intro on how Microsoft's Azure Cloud works.
+description: Always wondered what the "Cloud" is, but never had the time to understand it? This post will address just that and provide a brief intro on how Microsoft's Azure Cloud works.
 image: /images/Azure_Datacenter_Photo.jpg 
 ---
 

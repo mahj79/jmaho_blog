@@ -1,7 +1,7 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 3)'
 date: '2024-08-19'
-description: The third post in Jack's machine learning series.
+description: The third post in Jack's machine learning series. This post will cover gradient descent. By the end of this post, you'll have a basic understanding of how machine learning and large language models work.
 image: /images/Neural_Network_Drawing_Blue_Weights.jpg
 ---
 

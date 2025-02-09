@@ -1,9 +1,10 @@
 ---
 title: 'Effective API Management (Part 2)'
 date: '2025-01-07'
-description: Jack's second post on effective API Management.
+description: Jack's second post of a 2 part series, on how to effectively manage you and your organization's APIs. This post will cover the deployting, maintaining, and retiring phases of an building an API.
 image: /images/Azure_key_vault_rotation.jpg
 ---
+
 
 In Part 1 of this series, we talked about what is an API and what goes into developing one, as well as exploring the first two phases of the Software Development Lifecycle (SDLC); Phase one: Planning and Designing & Phase two: Developing and Testing. \
 Now, we’ll dive into the remaining phases of the API lifecycle: Implementing and Deploying, Operating and Maintaining, and Retirement and Decommissioning. Each of these phases is critical to ensuring your APIs remain secure, scalable, and functional throughout their lifecycle. Let’s dive in!

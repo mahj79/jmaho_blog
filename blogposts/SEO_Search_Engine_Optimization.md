@@ -1,7 +1,7 @@
 ---
 title: "SEO. Search Engine Optimization"
 date: '2025-01-22'
-description: How to understand what SEO is and to make your websites easier to generate organic growth!
+description: This post will help anyone understand what SEO is and the role it plays in making your websites easier to generate organic growth!
 image: /images/SEO_100.jpg
 ---
 

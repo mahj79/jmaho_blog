@@ -1,8 +1,8 @@
 ---
-title: "Welcome to Jack's Blog!"
+title: "Welcome to Maho's Corner!"
 date: '2024-06-11'
-description: Welcome post about Jack's Blog.
-image: /images/vail_headshot.jpg
+description: The first post of Maho's Corner. My welcome post to Maho's Corner, a blog dedicated to sharing my thoughts and experiences.
+image: /images/Mahos_Corner_Final.jpg
 ---
 
 Hello and thank you for taking the time to read my first official blog post! I appreciate you visiting my blog and hopefully you'll enjoy some of the thoughts I jot down that pass through my head. 

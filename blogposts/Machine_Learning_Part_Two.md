@@ -1,7 +1,7 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 2)'
 date: '2024-07-30'
-description: The second post in Jack's machine learning series.
+description: The second post in Jack's machine learning series. In this post, we'll cover weights and biases and how they impact the overall neural network. Fundamental to understanding how machine learning and large language models work.
 image: /images/Neural_Network_Drawing_Red_Weights.jpg
 ---
 

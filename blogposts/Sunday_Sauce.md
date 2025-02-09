@@ -1,7 +1,7 @@
 ---
 title: "Sunday Sauce"
 date: '2024-08-31'
-description: How to make mouth watering homemade red sauce.
+description: How to make mouth watering homemade red sauce from scratch. Wow your friends and family with this easy to make sauce!
 image: /images/Gabagool.jpg
 ---
 

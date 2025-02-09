@@ -1,7 +1,7 @@
 ---
 title: 'Neural Networks and Machine Learning (Part 1)'
 date: '2024-07-10'
-description: The first post in Jack's machine learning series.
+description: The first post of a three part series, in Jack's machine learning series. This post will cover the basics of neural networks and machine learning.
 image: /images/Neural_Network_Drawing.jpg
 ---
 

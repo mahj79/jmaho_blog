@@ -1,7 +1,7 @@
 ---
 title: 'My new job as an Enterprise Architect!'
 date: '2024-09-17'
-description: The first post in Jack's machine learning series.
+description: I've made the switch from Cybersecurity Engineer to an Enterprise Architect! This post will cover at a high level what an Enterprise Architect is and what they do.
 image: /images/App_Architecture_Diagram.jpg
 ---
 
