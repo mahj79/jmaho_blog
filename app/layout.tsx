@@ -15,7 +15,15 @@ export const metadata: Metadata = {
     default: "Jack's Blog",
     template: "%s | Maho's Corner"
   },
-  description: "Created by Jack Mahoney to blog about all things going through his head",
+  description: "A website created by Jack Mahoney to make complex tech subjects seem simple. And to blog about anything else that goes through his head",
+  icons: {
+    icon: [
+      { url: '/images/icon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/icon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: '/images/icon.ico',
+    apple: '/images/apple-touch-icon.png',
+  },
   openGraph: {
     title: {
       default: "Jack's Blog",

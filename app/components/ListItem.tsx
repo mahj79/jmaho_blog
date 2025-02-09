@@ -21,11 +21,11 @@ export default function ListItem({ post }: Props) {
                     />
                 </Link>
             </div>
-            <Link className="text-xl font-bold underline text-black hover:text-blue-700" href={`/posts/${post.id}`}>
+            <Link className="text-lg sm:text-2xl font-bold underline text-black hover:text-blue-700" href={`/posts/${post.id}`}>
                 {post.title}
             </Link>
-            <p className="text-sm text-black mt-2">{getFormattedDate(post.date)}</p>
-            <p className="text-sm text-black mt-2 pt-2line-clamp-3">{post.description}</p>
+            <p className="text-xs sm:text-sm text-black mt-2">{getFormattedDate(post.date)}</p>
+            <p className="text-xs sm:text-sm text-black mt-2 pt-2line-clamp-3">{post.description}</p>
             <div className="mt-auto text-sm pt-2">
                 <Link href={`/posts/${post.id}`} className="text-black hover:text-blue-800">
                     Read More →
