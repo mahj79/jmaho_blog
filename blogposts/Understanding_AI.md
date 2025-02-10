@@ -1,6 +1,6 @@
 ---
 title: 'Understanding AI. Explain AI to me like I am 5.'
-date: '2025-02-09'
+date: '2025-02-10'
 description: This post will explain how AI works at a high level. Pulling on the popular phrase "explain like I'm 5", I'll talk through how AI works in a way that is easy to understand.
 image: /images/Tokenization.jpg
 ---
