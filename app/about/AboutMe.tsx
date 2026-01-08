@@ -51,7 +51,7 @@ export default function AboutMe() {
                 Jack is a skilled engineer who has an impressive track record of solving complex problems at various companies, in various industries. He is typically known as someone who isn&apos;t easily phased by pressure or stress. He&apos;s even been described as &quot;a serial smiler&quot;, due to his tendencies of taking a glass half full approach to situations and helping diffuse tension across teams. Many view him as a mixture of a leader and individual contributor thanks to his ability to adapt to whatever the situation calls for. 
                 <br />
                 <br />
-                <h4 className="font-bold underline">Lead Enterprise Architect (2022 - Present)</h4>
+                <h4 className="font-bold underline">Sr. Lead Enterprise Architect (2022 - Present)</h4>
                 - Researched and presented Machine Learning and Neural Networks findings to 300+ engineers. Including live demonstrations with python to highlight impacts of fine tuning weights and biases.
 
                 <br />
