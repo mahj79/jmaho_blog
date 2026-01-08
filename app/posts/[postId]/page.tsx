@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ postId: s
 
         <article>
           <section
-            className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl [&>*>img]:mx-auto [&>*>img]:block [&>*>img]:max-w-md [&>*>img]:w-auto [&>*>img]:h-auto prose-ul:marker:text-black prose-ol:marker:text-black"
+            className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl [&>*>img]:mx-auto [&>*>img]:block [&>*>img]:max-w-[85%] sm:[&>*>img]:max-w-[75%] md:[&>*>img]:max-w-[65%] [&>*>img]:h-auto [&>*>img]:p-2 [&>*>img]:box-border prose-ul:marker:text-black prose-ol:marker:text-black"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
           <p>
