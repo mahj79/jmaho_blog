@@ -11,10 +11,10 @@ export function generateStaticParams() {
     }))
 }
 
-export function generateMetadata({ params }: { params: { postId: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ postId: string }> }) {
   
     const posts = getSortedPostsData();
-    const { postId } = params;
+    const { postId } = await params;
 
     const post = posts.find(post => post.id === postId);
   
@@ -50,8 +50,8 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
     };
   }
 
-  export default async function Post({ params }: { params: { postId: string } }) {
-    const { postId } = params;
+  export default async function Post({ params }: { params: Promise<{ postId: string }> }) {
+    const { postId } = await params;
   
     const posts = getSortedPostsData();
   
@@ -71,7 +71,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
         <article>
           <section
-            className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl [&>*>img]:mx-auto [&>*>img]:block prose-ul:marker:text-black prose-ol:marker:text-black"
+            className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl [&>*>img]:mx-auto [&>*>img]:block [&>*>img]:max-w-md [&>*>img]:w-auto [&>*>img]:h-auto prose-ul:marker:text-black prose-ol:marker:text-black"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
           <p>
