@@ -34,8 +34,8 @@ export default function Hero() {
       </div>
 
       {/* Row 2: display title — single line, scales to container width */}
-      <div className="hero-title-block mb-12 border-y border-white/20 py-5 sm:mb-16 sm:py-7 lg:mb-20 lg:py-8">
-        <h1 className="hero-wordmark w-full mix-blend-difference">
+      <div className="hero-title-block mb-12 border-y border-white/20 bg-black py-5 sm:mb-16 sm:py-7 lg:mb-20 lg:py-8">
+        <h1 className="hero-wordmark w-full">
           Maho&apos;s Corner™
         </h1>
       </div>

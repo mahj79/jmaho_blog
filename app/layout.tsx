@@ -70,10 +70,10 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-16x16.png" />
       </head>
 
-      <body>
+      <body className="bg-black">
         <GoogleAnalytics GA_MEASUREMENT_ID="G-PPCT2EJWCF" />
         <Navbar />
-        {children}
+        <div className="site-grid-surface">{children}</div>
       </body>
     </html>
   );
