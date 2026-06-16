@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 
 const navLinks = [
   { label: "Work", href: "#work" },
@@ -52,6 +52,15 @@ export default function Navbar() {
             aria-label="GitHub"
           >
             <FaGithub />
+          </Link>
+          <Link
+            href="https://www.instagram.com/mahoneyj50/"
+            className="text-white/60 transition-colors hover:text-white"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
           </Link>
         </div>
       </div>
