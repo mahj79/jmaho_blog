@@ -10,10 +10,12 @@ export default function Hero() {
       <div className="mb-8 grid grid-cols-1 items-start gap-8 lg:mb-10 lg:grid-cols-12 lg:gap-x-12">
         <div className="lg:col-span-7">
           <p className="max-w-lg text-sm leading-relaxed text-white/60 sm:text-base">
-            Pattern dimensions and moments that connect — simplifying complex technical subjects for learners of all backgrounds.
+            A Jack of all trades is a master of none, but often times better than a master of one.
           </p>
           <p className="mt-6 text-xs uppercase tracking-[0.2em] text-white/60 lg:mt-8">
-            Based in Chicago / Software Engineer + Enterprise Architect
+            Based in Chicago /
+            <br />
+            <span className="font-bold">Creator</span> + <span className="font-bold">Mental Health Advocate</span> + <span className="font-bold">Software Engineer</span> + <span className="font-bold">Enterprise Architect</span>
           </p>
         </div>
 
@@ -31,10 +33,12 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Row 2: display title — sits below accent photo row */}
-      <h1 className="text-display-xl mb-12 font-semibold tracking-display mix-blend-difference sm:mb-16 lg:mb-20">
-        Maho&apos;s Corner™
-      </h1>
+      {/* Row 2: display title — single line, scales to container width */}
+      <div className="hero-title-block mb-12 border-y border-white/20 py-5 sm:mb-16 sm:py-7 lg:mb-20 lg:py-8">
+        <h1 className="hero-wordmark w-full mix-blend-difference">
+          Maho&apos;s Corner™
+        </h1>
+      </div>
 
       {/* Row 3: large profile left, bio right — swapped & scaled up */}
       <div className="grid grid-cols-1 items-end gap-10 lg:grid-cols-12 lg:gap-x-12">

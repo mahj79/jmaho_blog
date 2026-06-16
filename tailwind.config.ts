@@ -21,6 +21,7 @@ const config: Config = {
         display: "0.9",
       },
       fontSize: {
+        "display-hero": ["clamp(3rem, 17vw, 14rem)", { lineHeight: "0.88", letterSpacing: "-0.07em" }],
         "display-xl": ["clamp(3rem, 12vw, 8rem)", { lineHeight: "0.9", letterSpacing: "-0.06em" }],
         "display-lg": ["clamp(2rem, 6vw, 4.5rem)", { lineHeight: "0.9", letterSpacing: "-0.05em" }],
         "display-md": ["clamp(1.5rem, 4vw, 3rem)", { lineHeight: "0.95", letterSpacing: "-0.04em" }],
