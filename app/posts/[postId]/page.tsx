@@ -59,27 +59,28 @@ export async function generateMetadata({ params }: { params: Promise<{ postId: s
       return notFound();
     }
   
-    const { title, date, contentHtml, image, description } = await getPostData(postId);
+    const { title, date, contentHtml, description } = await getPostData(postId);
   
     const pubDate = getFormattedDate(date);
   
     return (
-      <main className="text-gray-100 px-6 prose prose-base sm:prose-2xl prose-slate dark:prose-invert mx-auto">
-        <h1 className="text-xl sm:text-2xl text-gray-300 mt-2 mb-0">{title}</h1>
-        <p className="text-sm sm:text-lg text-gray-200 mt-2">{pubDate}</p>
-        
+      <main className="mx-auto max-w-3xl px-6 py-16 sm:px-10 sm:py-24">
+        <Link
+          href="/#writing"
+          className="mb-8 inline-block text-xs uppercase tracking-[0.15em] text-white/50 transition-colors hover:text-white"
+        >
+          ← Back to Writing
+        </Link>
+        <p className="mb-4 text-xs uppercase tracking-[0.15em] text-white/40">{pubDate}</p>
+        <h1 className="text-display-md mb-4 font-semibold tracking-display">{title}</h1>
+        {description && (
+          <p className="mb-12 text-base text-white/60">{description}</p>
+        )}
 
-        <article>
-          <section
-            className="bg-[#e1dab7] bg-gradient-to-br from-[#e6e6c5] to-[#d8d1a7] text-gray-900 p-4 sm:p-6 rounded-lg border-4 border-black shadow-md my-4 prose-sm sm:prose-xl [&>*>img]:mx-auto [&>*>img]:block [&>*>img]:max-w-[85%] sm:[&>*>img]:max-w-[75%] md:[&>*>img]:max-w-[65%] [&>*>img]:h-auto [&>*>img]:p-2 [&>*>img]:box-border prose-ul:marker:text-black prose-ol:marker:text-black"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
-          <p>
-            <Link href="/" className="text-gray-300">
-              Back to Home
-            </Link>
-          </p>
-        </article>
+        <article
+          className="prose prose-invert prose-sm sm:prose-lg max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-a:text-white prose-a:underline prose-img:rounded-sm"
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
       </main>
     );
   }
