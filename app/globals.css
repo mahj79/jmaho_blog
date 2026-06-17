@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --grid-unit: 7.5rem;
+  }
+
   html {
     scroll-behavior: smooth;
     background-color: #000000;
@@ -13,6 +17,7 @@
     position: relative;
     min-height: 100vh;
     background-color: #000000;
+    overflow-x: clip;
   }
 
   .site-grid-surface {
@@ -20,7 +25,7 @@
     background-image:
       linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-    background-size: 120px 120px;
+    background-size: var(--grid-unit) var(--grid-unit);
     background-position: left top;
   }
 }
@@ -30,16 +35,44 @@
     text-wrap: balance;
   }
 
+  .hero-row-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-unit);
+  }
+
+  @media (max-width: 639px) {
+    .hero-row-stack {
+      gap: calc(var(--grid-unit) * 0.5);
+    }
+  }
+
+  .hero-grid-row {
+    min-height: var(--grid-unit);
+  }
+
+  .hero-grid-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(var(--grid-unit) * 2);
+  }
+
   .hero-title-block {
     container-type: inline-size;
+    display: flex;
     width: 100%;
+    min-width: 0;
+    justify-content: center;
   }
 
   .hero-wordmark {
     font-size: clamp(1.875rem, 11.5cqi, 12.5rem);
     line-height: 0.88;
     letter-spacing: -0.085em;
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-align: center;
     font-weight: 600;
     -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.25);
     paint-order: stroke fill;
@@ -48,5 +81,19 @@
       -1px 0 rgba(255, 255, 255, 0.25),
       0 1px rgba(255, 255, 255, 0.25),
       0 -1px rgba(255, 255, 255, 0.25);
+  }
+
+  @media (max-width: 639px) {
+    .hero-wordmark {
+      font-size: clamp(1.75rem, 14vw, 3.25rem);
+      line-height: 0.92;
+      text-wrap: balance;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hero-wordmark {
+      white-space: nowrap;
+    }
   }
 }

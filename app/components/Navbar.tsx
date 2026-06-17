@@ -11,7 +11,7 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-white/25 bg-black/80 backdrop-blur-md">
-      <div className="mx-auto flex max-w-site flex-col items-center gap-4 px-6 py-4 sm:flex-row sm:justify-between sm:px-10">
+      <div className="mx-auto flex max-w-site flex-col items-center gap-3 px-6 py-3 sm:flex-row sm:justify-between sm:gap-4 sm:px-10 sm:py-4">
         <Link
           href="/"
           className="text-sm font-semibold uppercase tracking-[0.15em] text-white transition-colors hover:text-white/80"
@@ -19,7 +19,7 @@ export default function Navbar() {
           Maho&apos;s Corner
         </Link>
 
-        <div className="flex flex-wrap items-center justify-center gap-6">
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
           {navLinks.map((link) => (
             <Link
               key={link.href}

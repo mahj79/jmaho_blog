@@ -3,23 +3,23 @@ import { profilePhotos } from "@/lib/profilePhotos"
 import PillButton from "../ui/PillButton"
 import SectionShell from "../ui/SectionShell"
 
+const heroMeta = [
+  { label: "Based in Chicago" },
+  { label: "Creator + Mental Health Advocate" },
+  { label: "Software Engineer + Enterprise Architect" },
+]
+
 export default function Hero() {
   return (
-    <SectionShell id="top" className="pb-16 pt-12 sm:pb-24 sm:pt-16">
-      {/* Row 1: tagline left, small accent right — tops level (Framer-style) */}
-      <div className="mb-8 grid grid-cols-1 items-start gap-8 lg:mb-10 lg:grid-cols-12 lg:gap-x-12">
-        <div className="lg:col-span-7">
+    <SectionShell id="top" className="pb-16 pt-14 sm:pb-24 sm:pt-[4.575rem]">
+      <div className="mb-8 grid grid-cols-[1fr_auto] items-center gap-4 lg:mb-10 lg:grid-cols-12 lg:gap-x-12">
+        <div className="flex min-w-0 items-center lg:col-span-7">
           <p className="max-w-lg text-sm leading-relaxed text-white/60 sm:text-base">
-            A Jack of all trades is a master of none, but often times better than a master of one.
-          </p>
-          <p className="mt-6 text-xs uppercase tracking-[0.2em] text-white/60 lg:mt-8">
-            Based in Chicago /
-            <br />
-            <span className="font-bold">Creator</span> + <span className="font-bold">Mental Health Advocate</span> + <span className="font-bold">Software Engineer</span> + <span className="font-bold">Enterprise Architect</span>
+            A <span className="font-bold italic">Jack</span> of all trades is a master of none, but often times better than a master of one.
           </p>
         </div>
 
-        <div className="flex lg:col-span-5 lg:justify-end">
+        <div className="flex items-center lg:col-span-5 lg:justify-end">
           <div className="relative aspect-square w-[112px] shrink-0 overflow-hidden rounded-sm sm:w-[128px]">
             <Image
               src={profilePhotos.portrait.src}
@@ -33,14 +33,33 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Row 2: display title — single line, scales to container width */}
-      <div className="hero-title-block mb-12 border-y border-white/20 bg-black py-5 sm:mb-16 sm:py-7 lg:mb-20 lg:py-8">
-        <h1 className="hero-wordmark w-full">
-          Maho&apos;s Corner™
-        </h1>
+      <div className="hero-row-stack mb-12 sm:mb-16 lg:mb-22">
+        <div className="hero-grid-row-2 border-t border-white/20 bg-black">
+          <div className="hero-title-block">
+            <h1 className="hero-wordmark m-0 max-w-full">
+              Maho&apos;s Corner™
+            </h1>
+          </div>
+        </div>
+
+        <div className="py-3 grid grid-cols-1 items-center gap-2 border-y border-white/20 bg-black px-2 text-[10px] uppercase tracking-[0.15em] text-white/60 sm:grid-cols-3 sm:gap-0 sm:px-0 sm:text-xs sm:tracking-[0.2em]">
+          {heroMeta.map((item, index) => (
+            <p
+              key={item.label}
+              className={`min-w-0 break-words text-balance text-center ${
+                index === 0
+                  ? "sm:text-left"
+                  : index === 1
+                    ? "sm:text-center"
+                    : "sm:text-right"
+              }`}
+            >
+              {item.label}
+            </p>
+          ))}
+        </div>
       </div>
 
-      {/* Row 3: large profile left, bio right — swapped & scaled up */}
       <div className="grid grid-cols-1 items-end gap-10 lg:grid-cols-12 lg:gap-x-12">
         <div className="lg:col-span-5">
           <div className="relative aspect-[3/4] w-full max-w-lg overflow-hidden rounded-sm">
