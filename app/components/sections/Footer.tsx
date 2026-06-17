@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className="text-display-md font-semibold tracking-display">©2025</p>
+      <p className="text-display-md font-semibold tracking-display">©2026</p>
       <p className="mt-2 text-sm text-white/40">Maho&apos;s Corner — Jack Mahoney</p>
     </footer>
   )
