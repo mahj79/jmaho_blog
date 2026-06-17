@@ -15,30 +15,26 @@ export default function FeaturedWork() {
         <SectionHeading count={projects.length}>Featured Work</SectionHeading>
         <PillButton href="#writing">See Writing</PillButton>
       </div>
-      <Divider className="mb-12" />
+      <Divider className="mb-8" />
 
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-        {projects.map((project, index) => {
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10">
+        {projects.map((project) => {
           const content = (
             <>
-              <div
-                className={`relative mb-6 overflow-hidden rounded-sm ${
-                  index % 2 === 0 ? "aspect-[4/5]" : "aspect-[16/10]"
-                }`}
-              >
+              <div className="relative mb-3 aspect-[10/5] w-full overflow-hidden rounded-sm">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-500 hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, 50vw"
                 />
               </div>
-              <p className="mb-2 text-xs uppercase tracking-[0.15em] text-white/50">
+              <p className="mb-1 text-[10px] uppercase tracking-[0.15em] text-white/50">
                 {project.tags.join(" · ")}
               </p>
-              <h3 className="mb-3 text-xl font-semibold sm:text-2xl">{project.title}</h3>
-              <p className="text-sm leading-relaxed text-white/60">{project.description}</p>
+              <h3 className="mb-1.5 text-base font-semibold">{project.title}</h3>
+              <p className="text-xs leading-relaxed text-white/60">{project.description}</p>
             </>
           )
 

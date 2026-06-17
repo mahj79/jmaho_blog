@@ -1,5 +1,14 @@
 export const projects: Project[] = [
   {
+    id: "lost-in-thought",
+    title: "Lost in Thought App",
+    description:
+      "A free iOS and Android app dedicated to journaling and mental health.",
+    tags: ["Mobile App", "Mental Health", "AI"],
+    image: "/images/LIT_Logo_1024.png",
+    href: "https://lostinthoughtapp.com",
+  },
+  {
     id: "mahoscorner",
     title: "Maho's Corner",
     description:
@@ -9,27 +18,21 @@ export const projects: Project[] = [
     href: "https://mahoscorner.com",
   },
   {
-    id: "go-bank-api",
-    title: "Go Bank API",
-    description:
-      "JSON API in Go with JWT authentication, PostgreSQL integration, Docker deployment, and thorough handler testing for a secure bank API simulation.",
-    tags: ["Go", "PostgreSQL", "Docker"],
-    image: "/images/vail_headshot.jpg",
-  },
-  {
     id: "ml-presentations",
     title: "ML & Neural Networks",
     description:
       "Research and live Python demonstrations on machine learning and neural networks, presented to 300+ engineers with fine-tuning walkthroughs.",
     tags: ["Python", "Machine Learning", "Neural Networks"],
-    image: "/images/Mahos_Corner_Final.jpg",
+    image: "/images/Neural_Network_Drawing.jpg",
+    href: "https://mahoscorner.com/posts/Machine_Learning_Part_One",
   },
   {
-    id: "platform-guidance",
-    title: "Platform Guidance Program",
+    id: "go-bank-api",
+    title: "Go Bank API",
     description:
-      "Enterprise program to assess software footprint, rationalize redundancy, and publish grow/maintain/retire guidance aligned to technology strategy.",
-    tags: ["Architecture", "Strategy", "Enterprise"],
-    image: "/images/vail_headshot.jpg",
+      "JSON API in Go with JWT authentication, PostgreSQL integration, Docker deployment, and thorough handler testing for a secure bank API simulation.",
+    tags: ["Go", "PostgreSQL", "Docker"],
+    image: "/images/Go_Lang_Logo.png",
+    href: "https://github.com/mahj79/GO-Practice/tree/main/go-crud-api",
   },
 ]
