@@ -27,8 +27,8 @@ export const experience: Experience[] = [
   },
   {
     id: "cybersecurity-consultant",
-    company: "Cybersecurity Consulting",
-    role: "Senior Consultant",
+    company: "Deloitte",
+    role: "Senior Consultant - Cybersecurity",
     period: "2018 — 2022",
     location: "Chicago, IL",
     highlights: [

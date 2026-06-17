@@ -1,4 +1,5 @@
 import Hero from "./components/sections/Hero";
+import ScoreTicker from "./components/ui/ScoreTicker";
 import FeaturedWork from "./components/sections/FeaturedWork";
 import Skills from "./components/sections/Skills";
 import Experience from "./components/sections/Experience";
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <ScoreTicker />
       <Experience />
       <Skills />
       <FeaturedWork />
