@@ -6,25 +6,30 @@ import { profilePhotos } from "@/lib/profilePhotos"
 
 export default function HeroProfileFlip() {
   const [flipped, setFlipped] = useState(false)
-  const [canHover, setCanHover] = useState(true)
+  const [useHover, setUseHover] = useState(false)
 
   useEffect(() => {
-    setCanHover(window.matchMedia("(hover: hover)").matches)
+    const media = window.matchMedia("(hover: hover) and (pointer: fine)")
+    const update = () => setUseHover(media.matches)
+    update()
+    media.addEventListener("change", update)
+    return () => media.removeEventListener("change", update)
   }, [])
 
+  const toggleFlipped = () => setFlipped((value) => !value)
+
   return (
-    <div
-      className={`hero-profile-flip relative aspect-[3/4] w-full max-w-lg rounded-sm ${!canHover && flipped ? "is-flipped" : ""}`}
+    <button
+      type="button"
+      className={`hero-profile-flip relative aspect-[3/4] w-full max-w-lg rounded-sm border-0 bg-transparent p-0 text-left ${flipped ? "is-flipped" : ""}`}
+      onMouseEnter={() => useHover && setFlipped(true)}
+      onMouseLeave={() => useHover && setFlipped(false)}
+      onClick={() => {
+        if (!useHover) toggleFlipped()
+      }}
+      aria-label={flipped ? "Show profile photo" : "Show Chicago skyline photo"}
+      aria-pressed={flipped}
     >
-      {!canHover ? (
-        <button
-          type="button"
-          className="absolute inset-0 z-10 cursor-pointer rounded-sm border-0 bg-transparent p-0"
-          onClick={() => setFlipped((value) => !value)}
-          aria-label={flipped ? "Show profile photo" : "Show Chicago skyline photo"}
-          aria-pressed={flipped}
-        />
-      ) : null}
       <div className="hero-profile-flip-inner h-full w-full">
         <div className="hero-profile-flip-face hero-profile-flip-front overflow-hidden rounded-sm">
           <Image
@@ -46,6 +51,6 @@ export default function HeroProfileFlip() {
           />
         </div>
       </div>
-    </div>
+    </button>
   )
 }

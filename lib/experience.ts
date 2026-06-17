@@ -19,9 +19,10 @@ export const experience: Experience[] = [
     period: "2022 — 2026",
     location: "Chicago, IL",
     highlights: [
-      "Researched and presented ML and neural network findings to 300+ engineers with live Python demos.",
-      "Established Platform Guidance Program to rationalize software footprint across the org.",
-      "Matured API lifecycle management with improved secrets handling and developer experience.",
+      "Replaced legacy API auth with JWT-backed services, reverse proxies, and a centralized backend. Modernizing authentication without disrupting production.",
+      "Built and deployed an AI Agent with LangChain and OpenAI to assess projects for appropriate architecture, security, and compliance risks.",
+      "Presented ML and neural network research to 300+ engineers with live Python demos that turned research into patterns teams could ship.",
+      "Launched a Platform Guidance Program that rationalized the software footprint and gave teams a clearer path to build on fewer, stronger platforms.",
     ],
   },
   {
@@ -31,9 +32,9 @@ export const experience: Experience[] = [
     period: "2018 — 2022",
     location: "Chicago, IL",
     highlights: [
-      "Led NIST and ISO 27001 maturity projects for Fortune 500 clients.",
-      "Implemented secure SDLC practices and executive-level deliverables.",
-      "Optimized Oracle environments, reducing client spending by 20%.",
+      "Led NIST and ISO 27001 maturity programs for Fortune 500 clients. Converting audit gaps into prioritized remediation roadmaps leadership could act on.",
+      "Embedded secure SDLC across delivery teams: threat modeling in design reviews, hardened CI/CD pipelines, and executive ready risk reporting.",
+      "Rearchitected Oracle environments for enterprise clients, cutting licensing and infrastructure spend by 20% while maintaining uptime and compliance.",
     ],
   },
 ]

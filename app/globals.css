@@ -139,12 +139,6 @@
     transition: transform 0.65s cubic-bezier(0.4, 0.2, 0.2, 1);
   }
 
-  @media (hover: hover) {
-    .hero-profile-flip:hover .hero-profile-flip-inner {
-      transform: rotateY(180deg);
-    }
-  }
-
   .hero-profile-flip.is-flipped .hero-profile-flip-inner {
     transform: rotateY(180deg);
   }
