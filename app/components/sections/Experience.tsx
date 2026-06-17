@@ -9,7 +9,7 @@ export default function Experience() {
     <SectionShell id="experience">
       <SectionLabel className="mb-4">@Experience</SectionLabel>
       <SectionHeading count={experience.length} className="mb-8 sm:mb-12">
-        Practice
+        Work Things
       </SectionHeading>
       <Divider />
 
