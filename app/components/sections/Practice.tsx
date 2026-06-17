@@ -10,12 +10,12 @@ export default function Practice() {
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
         <div>
           <p className="text-display-md mb-8 font-semibold tracking-display text-balance">
-            Blending design and code with functional clarity and creative precision.
+            Building cool things because I can and it stimulates my brain.
           </p>
           <p className="mb-8 max-w-xl text-base leading-relaxed text-white/60">
-            Delivering thoughtful digital systems with structure, flow, and expressive interaction — from enterprise architecture to personal projects that make complex ideas simple.
+            I create apps, websites, designs, write, read, and a whole lot of other things, because that is what life is all about. Are a lot of the photos on my website from my wedding day? Yes. And that is because that was the happiest I&apos;ve ever been, I love my wife, and the photos are really good.
           </p>
-          <PillButton href="#work">See Works</PillButton>
+          <PillButton href="mailto:mahonej79@gmail.com">You seem cool, let&apos;s chat!</PillButton>
         </div>
         <div className="relative aspect-[4/3] w-full max-w-lg overflow-hidden rounded-sm lg:ml-auto">
           <Image

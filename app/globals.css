@@ -203,4 +203,42 @@
       padding-block: 0.875rem;
     }
   }
+
+  .testimonial-ticker {
+    overflow: hidden;
+  }
+
+  .testimonial-ticker-track {
+    display: flex;
+    width: max-content;
+    gap: 1.5rem;
+    animation: testimonial-ticker-scroll 72s linear infinite;
+  }
+
+  .testimonial-ticker-item {
+    flex-shrink: 0;
+    width: min(85vw, 22rem);
+  }
+
+  @keyframes testimonial-ticker-scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .testimonial-ticker {
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+    }
+
+    .testimonial-ticker-track {
+      animation: none;
+      width: max-content;
+    }
+  }
 }

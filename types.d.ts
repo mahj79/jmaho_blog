@@ -40,6 +40,7 @@ type Testimonial = {
     role: string
     company: string
     avatar: string
+    avatarKind?: "logo" | "photo"
 }
 
 type Award = {
