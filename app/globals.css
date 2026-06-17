@@ -96,4 +96,35 @@
       white-space: nowrap;
     }
   }
+
+  .hero-bio-block {
+    container-type: inline-size;
+    min-width: 0;
+  }
+
+  .hero-bio {
+    font-size: clamp(1.0625rem, 4vw, 1.625rem);
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.92);
+    text-wrap: balance;
+  }
+
+  @media (min-width: 640px) {
+    .hero-bio {
+      font-size: clamp(1.25rem, 2.8vw, 2.25rem);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hero-bio {
+      font-size: clamp(1.75rem, 4.5cqi, 3.25rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      font-weight: 500;
+    }
+  }
 }

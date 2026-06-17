@@ -34,7 +34,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-row-stack mb-12 sm:mb-16 lg:mb-22">
-        <div className="hero-grid-row-2 border-t border-white/20 bg-black">
+        <div className="hero-grid-row-2 border-y border-white/20 bg-black">
           <div className="hero-title-block">
             <h1 className="hero-wordmark m-0 max-w-full">
               Maho&apos;s Corner™
@@ -60,7 +60,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 items-end gap-10 lg:grid-cols-12 lg:gap-x-12">
+      <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-x-12">
         <div className="lg:col-span-5">
           <div className="relative aspect-[3/4] w-full max-w-lg overflow-hidden rounded-sm">
             <Image
@@ -74,9 +74,18 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-7">
-          <p className="mb-8 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
-            Hi, I&apos;m Jack Mahoney — Maho to my friends. I&apos;m a software engineer and enterprise architect in Chicago who loves solving hard problems, building thoughtful systems, and writing about tech, sports, cooking, and life.
+        <div className="hero-bio-block flex flex-col items-start justify-center lg:col-span-7">
+          <p className="hero-bio mb-8 max-w-2xl">
+            Hi, I&apos;m Jack Mahoney! But my friends call me Maho. 
+            <br /> 
+            <br />
+            I&apos;m a creator in many ways. I write code, architect technology, dabble in  design, and a handful of other things. Most importantly, though, I&apos;m dedicated to providing more accesible <a href="https://lostinthoughtapp.com" target="_blank" rel="noopener noreferrer" className="underline decoration-white/40 underline-offset-2 transition-colors hover:text-white hover:decoration-white">mental health resources</a> and helping others. 
+            <br /> 
+            <br />
+            I love solving hard problems, building thoughtful systems, and writing about tech, sports, cooking, and life.
+            <br /> 
+            <br />
+            Welcome friend!
           </p>
           <PillButton href="mailto:mahonej79@gmail.com">Contact</PillButton>
         </div>
