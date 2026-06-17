@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ postId: s
     return (
       <main className="mx-auto max-w-3xl px-6 py-16 sm:px-10 sm:py-24">
         <Link
-          href="/#writing"
+          href="/writing"
           className="mb-8 inline-block text-xs uppercase tracking-[0.15em] text-white/50 transition-colors hover:text-white"
         >
           ← Back to Writing

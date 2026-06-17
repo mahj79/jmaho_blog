@@ -12,7 +12,7 @@ export const projects: Project[] = [
     id: "mahoscorner",
     title: "Maho's Corner",
     description:
-      "Personal blog and portfolio built with Next.js, TypeScript, Tailwind CSS, and markdown — designed to make complex tech topics approachable.",
+      "Personal blog and portfolio built with Next.js, TypeScript, Tailwind CSS, and markdown. Designed to make complex tech topics approachable.",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     image: "/images/Mahos_Corner_Final.jpg",
     href: "https://mahoscorner.com",

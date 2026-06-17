@@ -6,7 +6,7 @@ type SectionShellProps = {
 
 export default function SectionShell({ id, children, className = "" }: SectionShellProps) {
   return (
-    <section id={id} className={`mx-auto w-full max-w-site px-6 py-20 sm:px-10 sm:py-28 ${className}`}>
+    <section id={id} className={`mx-auto w-full max-w-site px-6 py-12 sm:px-16 sm:py-20 ${className}`}>
       {children}
     </section>
   )

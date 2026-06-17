@@ -18,10 +18,10 @@ export default function Home() {
       <Experience />
       <Skills />
       <FeaturedWork />
+      <Writing />
       <Practice />
       <Testimonials />
       <Awards />
-      <Writing />
       <FAQ />
       <Footer />
     </main>
