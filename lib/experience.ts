@@ -1,9 +1,22 @@
 export const experience: Experience[] = [
   {
+    id: "Founder",
+    company: "Lost in Thought",
+    companyUrl: "https://lostinthoughtapp.com",
+    role: "Engineer, Designer, Marketing, Accounting, and Everything Else",
+    period: "2025 — Present",
+    location: "Chicago, IL",
+    highlights: [
+      "Created Lost in Thought, an iOS and Android app dedicated to journaling and mental health.",
+      "Lost in Thought uses flutter for the frontend and a mixture of Google Cloud and Supabase for the backend.",
+      "On a mission to build a brand that makes mental health more accessible and help others through my app, physical products, merch, and more.",
+    ],
+  },
+  {
     id: "enterprise-architect",
-    company: "Major Financial Institution",
+    company: "Northern Trust",
     role: "Sr. Lead Enterprise Architect",
-    period: "2022 — Present",
+    period: "2022 — 2026",
     location: "Chicago, IL",
     highlights: [
       "Researched and presented ML and neural network findings to 300+ engineers with live Python demos.",

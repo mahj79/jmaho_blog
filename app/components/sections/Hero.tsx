@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { profilePhotos } from "@/lib/profilePhotos"
+import HeroProfileFlip from "./HeroProfileFlip"
 import PillButton from "../ui/PillButton"
 import SectionShell from "../ui/SectionShell"
 
@@ -62,16 +63,7 @@ export default function Hero() {
 
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-x-12">
         <div className="lg:col-span-5">
-          <div className="relative aspect-[3/4] w-full max-w-lg overflow-hidden rounded-sm">
-            <Image
-              src={profilePhotos.profile.src}
-              alt={profilePhotos.profile.alt}
-              fill
-              className="object-cover object-center"
-              priority
-              sizes="(max-width: 1024px) 100vw, 42vw"
-            />
-          </div>
+          <HeroProfileFlip />
         </div>
 
         <div className="hero-bio-block flex flex-col items-start justify-center lg:col-span-7">

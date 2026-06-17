@@ -8,7 +8,7 @@ type PillButtonProps = {
 }
 
 export default function PillButton({ href, children, external, className = "" }: PillButtonProps) {
-  const classes = `inline-flex items-center justify-center rounded-full border border-white/40 px-6 py-2.5 text-xs uppercase tracking-[0.15em] text-white transition-colors hover:border-white hover:bg-white/5 ${className}`
+  const classes = `inline-flex items-center justify-center rounded-full border-2 border-white/50 px-6 py-2.5 text-xs uppercase tracking-[0.15em] text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-black ${className}`
 
   if (external || href.startsWith("mailto:")) {
     return (

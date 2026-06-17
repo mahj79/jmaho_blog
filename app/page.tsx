@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <FeaturedWork />
-      <Skills />
       <Experience />
+      <Skills />
+      <FeaturedWork />
       <Practice />
       <Testimonials />
       <Awards />

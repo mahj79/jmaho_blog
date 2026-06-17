@@ -18,6 +18,7 @@ type Project = {
 type Experience = {
     id: string
     company: string
+    companyUrl?: string
     role: string
     period: string
     location: string

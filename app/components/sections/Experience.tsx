@@ -11,7 +11,7 @@ export default function Experience() {
       <SectionHeading count={experience.length} className="mb-8 sm:mb-12">
         Practice
       </SectionHeading>
-      <Divider className="mb-12" />
+      <Divider />
 
       <div className="space-y-0">
         {experience.map((role, index) => (
@@ -22,7 +22,20 @@ export default function Experience() {
                 <p className="text-sm text-white/50">{role.period}</p>
               </div>
               <div className="sm:col-span-4">
-                <h3 className="text-lg font-semibold">{role.company}</h3>
+                <h3 className="text-lg font-semibold">
+                  {role.companyUrl ? (
+                    <a
+                      href={role.companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+                    >
+                      {role.company}
+                    </a>
+                  ) : (
+                    role.company
+                  )}
+                </h3>
                 <p className="mt-1 text-sm text-white/60">{role.role}</p>
               </div>
               <div className="sm:col-span-2">

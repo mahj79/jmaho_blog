@@ -7,6 +7,10 @@ export const profilePhotos = {
     src: "/images/jack-portrait-profile.png",
     alt: "Jack Mahoney in a tuxedo holding a drink in an art-filled room",
   },
+  chicago: {
+    src: "/images/chicago-skyline-portrait.jpg",
+    alt: "Chicago skyline and lakefront walk along Lake Michigan",
+  },
   couple: {
     src: "/images/jack-portrait-couple.png",
     alt: "Jack Mahoney in a tuxedo with his partner in a modern creative space",
