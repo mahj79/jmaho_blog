@@ -1,11 +1,12 @@
 import Link from "next/link"
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
+import HashLink from "./ui/HashLink"
 
 const navLinks = [
-  { label: "Work", href: "#work" },
-  { label: "Experience", href: "#experience" },
-  { label: "Writing", href: "#writing" },
-  { label: "Contact", href: "#contact" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Work", href: "/#work" },
+  { label: "Writing", href: "/#writing" },
+  { label: "Contact", href: "/#contact" },
 ]
 
 export default function Navbar() {
@@ -21,13 +22,13 @@ export default function Navbar() {
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
           {navLinks.map((link) => (
-            <Link
+            <HashLink
               key={link.href}
               href={link.href}
               className="text-xs uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white"
             >
               {link.label}
-            </Link>
+            </HashLink>
           ))}
         </div>
 

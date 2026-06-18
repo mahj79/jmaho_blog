@@ -1,36 +1,47 @@
 import Link from "next/link"
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import Divider from "../ui/Divider"
+import HashLink from "../ui/HashLink"
 import PillButton from "../ui/PillButton"
 
 const footerLinks = [
-  { label: "Work", href: "#work" },
-  { label: "Experience", href: "#experience" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Awards", href: "#awards" },
-  { label: "Writing", href: "#writing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Work", href: "/#work" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Awards", href: "/#awards" },
+  { label: "Writing", href: "/#writing" },
+  { label: "FAQ", href: "/#faq" },
   { label: "About", href: "/about" },
 ]
 
 export default function Footer() {
   return (
-    <footer id="contact" className="mx-auto w-full max-w-site px-6 pb-12 pt-8 sm:px-10 sm:pb-16">
+    <footer id="contact" className="scroll-mt-20 mx-auto w-full max-w-site px-6 pb-12 pt-8 sm:px-10 sm:pb-16">
       <Divider className="mb-16" />
 
       <div className="mb-16 grid grid-cols-1 gap-12 md:grid-cols-3">
         <div>
           <p className="mb-4 text-xs uppercase tracking-[0.2em] text-white/40">Quick Links</p>
           <nav className="flex flex-col gap-2">
-            {footerLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm text-white/70 transition-colors hover:text-white"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {footerLinks.map((link) =>
+              link.href.startsWith("/#") ? (
+                <HashLink
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/70 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </HashLink>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/70 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </Link>
+              ),
+            )}
           </nav>
         </div>
 
