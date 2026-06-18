@@ -13,7 +13,7 @@ export default function FeaturedWork() {
       <SectionLabel className="mb-4">Featured Projects</SectionLabel>
       <div className="mb-8 flex flex-col gap-6 sm:mb-12 sm:flex-row sm:items-end sm:justify-between">
         <SectionHeading count={projects.length}>Featured Work</SectionHeading>
-        <PillButton href="#writing">See Writing</PillButton>
+        <PillButton href="/#writing">See Writing</PillButton>
       </div>
       <Divider className="mb-8" />
 

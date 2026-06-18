@@ -1,6 +1,4 @@
 import Link from "next/link"
-import { normalizeHashHref } from "@/lib/normalizeHashHref"
-import HashLink from "./HashLink"
 
 type PillButtonProps = {
   href: string
@@ -17,14 +15,6 @@ export default function PillButton({ href, children, external, className = "" }:
       <a href={href} className={classes} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined}>
         {children}
       </a>
-    )
-  }
-
-  if (href.startsWith("#") || href.startsWith("/#")) {
-    return (
-      <HashLink href={normalizeHashHref(href)} className={classes}>
-        {children}
-      </HashLink>
     )
   }
 

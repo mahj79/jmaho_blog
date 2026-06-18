@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import Divider from "../ui/Divider"
-import HashLink from "../ui/HashLink"
 import PillButton from "../ui/PillButton"
+import SectionLink from "../ui/SectionLink"
 
 const footerLinks = [
   { label: "Work", href: "/#work" },
@@ -25,13 +25,13 @@ export default function Footer() {
           <nav className="flex flex-col gap-2">
             {footerLinks.map((link) =>
               link.href.startsWith("/#") ? (
-                <HashLink
+                <SectionLink
                   key={link.href}
                   href={link.href}
                   className="text-sm text-white/70 transition-colors hover:text-white"
                 >
                   {link.label}
-                </HashLink>
+                </SectionLink>
               ) : (
                 <Link
                   key={link.href}
@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-start md:items-end">
-          <PillButton href="#top">Back to Top</PillButton>
+          <PillButton href="/#top">Back to Top</PillButton>
         </div>
       </div>
 

@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import GoogleAnalytics from "./components/GoogleAnalytics";
-import HashScrollHandler from "./components/HashScrollHandler";
+import { SectionScrollHandler } from "./components/ui/SectionLink";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -73,7 +73,7 @@ export default function RootLayout({
 
       <body className="bg-black">
         <GoogleAnalytics GA_MEASUREMENT_ID="G-PPCT2EJWCF" />
-        <HashScrollHandler />
+        <SectionScrollHandler />
         <Navbar />
         <div className="site-grid-surface">{children}</div>
       </body>

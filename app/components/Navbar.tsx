@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
-import HashLink from "./ui/HashLink"
+import SectionLink from "./ui/SectionLink"
 
 const navLinks = [
   { label: "Experience", href: "/#experience" },
@@ -22,13 +22,13 @@ export default function Navbar() {
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
           {navLinks.map((link) => (
-            <HashLink
+            <SectionLink
               key={link.href}
               href={link.href}
               className="text-xs uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white"
             >
               {link.label}
-            </HashLink>
+            </SectionLink>
           ))}
         </div>
 
