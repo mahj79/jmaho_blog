@@ -4,6 +4,7 @@ type BlogPost = {
     date: string
     description: string
     image: string
+    pdf?: string
 }
 
 type Project = {

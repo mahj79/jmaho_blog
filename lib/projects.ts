@@ -1,5 +1,14 @@
 export const projects: Project[] = [
   {
+    id: "llm-mental-health-safety",
+    title: "LLM Safety for Mental Health",
+    description:
+      "Independent research on whether frontier models hold their ground when users push back on cognitive-distortion challenges, with a self-auditing evaluation pipeline.",
+    tags: ["Research", "LLM Safety", "Mental Health"],
+    image: "/images/llm-safety-capitulation-chart-cover.png",
+    href: "/posts/LLM_Safety_Mental_Health_Eval",
+  },
+  {
     id: "lost-in-thought",
     title: "Lost in Thought App",
     description:
@@ -25,14 +34,5 @@ export const projects: Project[] = [
     tags: ["Python", "Machine Learning", "Neural Networks"],
     image: "/images/Neural_Network_Drawing.jpg",
     href: "https://mahoscorner.com/posts/Machine_Learning_Part_One",
-  },
-  {
-    id: "go-bank-api",
-    title: "Go Bank API",
-    description:
-      "JSON API in Go with JWT authentication, PostgreSQL integration, Docker deployment, and thorough handler testing for a secure bank API simulation.",
-    tags: ["Go", "PostgreSQL", "Docker"],
-    image: "/images/Go_Lang_Logo.png",
-    href: "https://github.com/mahj79/GO-Practice/tree/main/go-crud-api",
   },
 ]

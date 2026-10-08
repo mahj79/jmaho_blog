@@ -8,7 +8,6 @@ const footerLinks = [
   { label: "Work", href: "/#work" },
   { label: "Experience", href: "/#experience" },
   { label: "Testimonials", href: "/#testimonials" },
-  { label: "Awards", href: "/#awards" },
   { label: "Writing", href: "/#writing" },
   { label: "FAQ", href: "/#faq" },
   { label: "About", href: "/about" },

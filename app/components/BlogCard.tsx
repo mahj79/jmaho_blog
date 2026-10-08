@@ -15,7 +15,11 @@ export default function BlogCard({ post }: BlogCardProps) {
             src={post.image || "/images/Mahos_Corner_Final.jpg"}
             alt={post.title}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className={
+              post.pdf
+                ? "bg-white object-contain object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                : "object-cover transition-transform duration-500 group-hover:scale-105"
+            }
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>

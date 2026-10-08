@@ -19,6 +19,7 @@ export default function FeaturedWork() {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10">
         {projects.map((project) => {
+          const isPaperCover = project.id === "llm-mental-health-safety"
           const content = (
             <>
               <div className="relative mb-3 aspect-[10/5] w-full overflow-hidden rounded-sm">
@@ -26,7 +27,11 @@ export default function FeaturedWork() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className={
+                    isPaperCover
+                      ? "bg-white object-contain object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                      : "object-cover transition-transform duration-500 group-hover:scale-105"
+                  }
                   sizes="(max-width: 640px) 100vw, 50vw"
                 />
               </div>
@@ -39,12 +44,14 @@ export default function FeaturedWork() {
           )
 
           if (project.href) {
+            const isExternal = project.href.startsWith("http")
             return (
               <Link
                 key={project.id}
                 href={project.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(isExternal
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
                 className="group block"
               >
                 {content}

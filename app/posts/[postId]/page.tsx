@@ -1,3 +1,4 @@
+import PdfPaperViewer from "@/app/components/PdfPaperViewer"
 import PostBackLink from "@/app/components/PostBackLink"
 import getFormattedDate from "@/lib/getFormattedDate"
 import { getPostById, getPostData, getSortedPostsData } from "@/lib/posts"
@@ -58,7 +59,7 @@ export default async function Post({ params }: { params: Promise<{ postId: strin
     return notFound()
   }
 
-  const { title, date, contentHtml, description } = await getPostData(postId)
+  const { title, date, contentHtml, description, pdf } = await getPostData(postId)
   const pubDate = getFormattedDate(date)
 
   return (
@@ -72,6 +73,8 @@ export default async function Post({ params }: { params: Promise<{ postId: strin
         className="prose prose-invert prose-sm sm:prose-lg max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-a:text-white prose-a:underline prose-img:rounded-sm"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
+
+      {pdf && <PdfPaperViewer src={pdf} title={title} />}
 
       <footer className="mt-16 border-t border-white/10 pt-8">
         <PostBackLink />
